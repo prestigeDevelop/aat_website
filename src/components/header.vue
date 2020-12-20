@@ -1,11 +1,11 @@
 <template>
   <div id="container">
-<div class="nav">
+    <div class="nav">
       <router-link to="/">Home</router-link> 
-        </div>
-        <div class="nav">
+    </div>
+    <div class="nav">
       <router-link to="/about">About</router-link>
-  </div>
+    </div>
     </div>
 </template>
 
@@ -21,7 +21,7 @@ export default {};
   justify-content: space-around;
 }
 
-.nav {
+#container .nav {
   padding: 30px;
   border:1px  #42b983 solid;
 }
