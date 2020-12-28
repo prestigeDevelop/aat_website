@@ -1,17 +1,20 @@
 <template>
-	<div id="app">
+	<div id="app" class="d-flex flex-column h-100">
 		<Header />
 
 		<router-view />
+		<Footer />
 	</div>
 </template>
 
 <script>
 import Header from '@/components/header.vue';
+import Footer from '@/components/Footer.vue';
 export default {
 	name: 'App',
 	components: {
-		Header
+		Header,
+		Footer
 	}
 };
 </script>
@@ -21,15 +24,24 @@ export default {
 	font: normal normal normal 16px/1.4em avenir-lt-w01_35-light1475496, sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	//text-align: center;
-
-	width: 100%;
-	//padding: 0% 2% 2% 2%;
-	border: 1px #42b983 solid;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	//border: 1px #42b983 solid;
 }
 
 h5 {
-	font: normal normal bold 17px/1.5em lulo-clean-w01-one-bold, sans-serif;
-	color: #94821b;
+	font: normal normal bold 19px/1.5em lulo-clean-w01-one-bold, sans-serif !important;
+	color: #94821b !important;
+
+	//font-size: 100pt !important;
+	//font-family: 'Baskerville Old Face', Garamond, serif !important;
+	//font-weight: bold !important;
+	//font-style: italic !important;
+}
+#header,
+#footer {
+	text-align: center;
+	padding: 20px;
 }
 </style>
