@@ -56,7 +56,12 @@
 					</li>
 				</ul>
 			</div>
-			<img class="container__image" src="../assets/20180514_165336_edited.jpg" />
+			<img
+				class="container__image"
+				alt="Yana with Gucci and Churchill"
+				title="Yana with Gucci and Churchill"
+				src="../assets/20180514_165336_edited.jpg"
+			/>
 
 			<!-- <h4>Certifications:</h4>
 			<ul>

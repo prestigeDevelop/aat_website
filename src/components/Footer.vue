@@ -1,5 +1,5 @@
 <template>
-	<footer class=" mt-auto py-3 bg-light">
+	<footer class="mt-auto py-3 bg-light">
 		<div class="container">
 			<div class="text-muted">Call: 902-229-7897</div>
 			<div class="text-muted">Email: yanagoldaat@gmail.com</div>
