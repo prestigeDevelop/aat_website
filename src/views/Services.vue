@@ -67,5 +67,20 @@ export default {
 .container > div {
 	//border: 1px #42b983 solid;
 	flex: 1 1 0%;
+	//padding: 8px;
+}
+
+.sessions {
+	padding-right: 50px;
+	@media screen and (max-width: 992px) {
+		padding-right: 0px;
+	}
+}
+
+.workshops {
+	padding-left: 50px;
+	@media screen and (max-width: 992px) {
+		padding-left: 0px;
+	}
 }
 </style>
