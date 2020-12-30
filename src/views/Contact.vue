@@ -5,22 +5,22 @@
 			<form target="_blank" action="https://formsubmit.co/yanagoldaat@gmail.com" method="POST">
 				<div class="form-group">
 					<label for="exampleFormControlInput1">Name</label>
-					<input type="name" name="name" class="form-control" id="name" placeholder="Name" />
+					<input id="name" type="name" name="name" class="form-control" placeholder="Name" />
 				</div>
 				<div class="form-group">
 					<label for="exampleFormControlInput1">Email address</label>
 					<input
+						id="exampleFormControlInput1"
 						type="email"
 						name="email"
 						class="form-control"
-						id="exampleFormControlInput1"
 						placeholder="name@example.com"
 					/>
 				</div>
 
 				<div class="form-group">
 					<label for="exampleFormControlTextarea1">Message</label>
-					<textarea class="form-control" name="message" id="exampleFormControlTextarea1" rows="3"></textarea>
+					<textarea id="exampleFormControlTextarea1" class="form-control" name="message" rows="3"></textarea>
 				</div>
 				<div class="col-auto">
 					<button type="submit" class="btn btn-primary mb-2">Submit</button>
