@@ -2,6 +2,19 @@
 <template>
 	<main class="container">
 		<!-- <section class="content"> -->
+		<div class="sessions">
+			<h5>One on One sessions</h5>
+			<p>
+				The therapeutic process usually consists of four introduction sessions (creating initial connection, trust, goal
+				settings), sixteen process sessions and four separation sessions.
+			</p>
+			<p>
+				Each session is 45 minutes long and their frequency is weekly. This is dynamic and depends on the client, their needs,
+				goals and possibilities.
+			</p>
+			<p>This service isn't covered under health insurance providers therefore a direct cost is associated.</p>
+			<p>Please feel free to contact me with any questions or for additional information.</p>
+		</div>
 		<div class="workshops">
 			<h5>Workshops and Presentations</h5>
 			<p>
@@ -24,19 +37,6 @@
 				Please contact to discuss custom workshops and presentations that will meet your personal and organizational interests
 				and needs.
 			</p>
-		</div>
-		<div class="sessions">
-			<h5>One on one sessions</h5>
-			<p>
-				The therapeutic process usually consists of four introduction sessions (creating initial connection, trust, goal
-				settings), sixteen process sessions and four separation sessions.
-			</p>
-			<p>
-				Each session is 45 minutes long and their frequency is weekly. This is dynamic and depends on the client, their needs,
-				goals and possibilities.
-			</p>
-			<p>This service isn't covered under health insurance providers therefore a direct cost is associated.</p>
-			<p>Please feel free to contact me with any questions or for additional information.</p>
 		</div>
 		<!-- </section> -->
 	</main>

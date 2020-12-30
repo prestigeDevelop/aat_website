@@ -8,14 +8,24 @@
 			<aside class="left">
 				Animal Assisted Therapy (AAT) is a therapeutic process based on the client's encounters with various animals.It is a
 				triangular interaction involving the client, therapist and animal. The encounter is immediate, direct and authentic.
-				Making the sessions comfortable, safe and free of judgement. Clients that likely to be anxious are comforted by the
-				presence of an animal companion, often enhancing their motivation in therapy. This experience allows spontaneous
-				reactions in front of an animal which, without words accepts an individual's story, beginning the therapeutic process
-				where the client feels understood, supported and free to be themselves. The acceptance, creates an ideal atmosphere by
-				opening the door to an inner world and helps the individual to bypass obstacles such as verbal expression or
-				resistance to treatment.
+				Making the sessions comfortable, safe and free of judgement.
+				<p>
+					Clients that likely to be anxious are comforted by the presence of an animal companion, often enhancing their
+					motivation in therapy.
+				</p>
+				<p>
+					This experience allows spontaneous reactions in front of an animal which, without words accepts an
+					individual's story, beginning the therapeutic process where the client feels understood, supported and free to
+					be themselves.
+				</p>
+				<p>
+					The acceptance, creates an ideal atmosphere by opening the door to an inner world and helps the individual to
+					bypass obstacles such as verbal expression or resistance to treatment.
+				</p>
 			</aside>
-			<aside class="right"><img alt="aat" src="../assets/_D724654_edited 812.jpg" class="figure" /></aside>
+			<aside class="right">
+				<img alt="aat" src="../assets/_D724654_edited 812.jpg" title="Yana with Noya and Churchill" class="figure" />
+			</aside>
 		</section>
 		<section class="buttom">
 			Therapeutic Interventions with Animals is an active process that can support individuals who experience emotional disturbances
