@@ -1,7 +1,6 @@
 <template>
 	<div id="app" class="d-flex flex-column h-100">
 		<Header />
-
 		<router-view />
 		<Footer />
 	</div>
@@ -24,8 +23,9 @@ export default {
 	font: normal normal normal 16px/1.4em avenir-lt-w01_35-light1475496, sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	display: flex;
-	flex-direction: column;
+	//using booststrap instead: class="d-flex flex-column"
+	//display: flex;
+	//flex-direction: column;
 	min-height: 100vh;
 	//border: 1px #42b983 solid;
 }
