@@ -15,7 +15,7 @@
 				/>
 			</svg>
 
-			<a href="tel:9022297897">Call us at 902-229-7897</a>
+			<a href="tel:9022297897">Call me at 902-229-7897</a>
 		</div>
 		<div class="text-muted">
 			<svg

@@ -42,10 +42,10 @@
 				Over the past 15 years I've worked with different age groups and organizations,such as schools, foster care,
 				department of social affairs, victims services, residential care, nursing homes and addiction units.
 			</p>
-			<p>
+			<!-- <p>
 				In 2015 I immigrated from Israel and am now a proud Canadian citizen. I currently live in Upper Tantallon with my
 				husband and daughter. Surrounded with loyal animal companions.
-			</p>
+			</p> -->
 		</div>
 		<div class="container__left">
 			<img
