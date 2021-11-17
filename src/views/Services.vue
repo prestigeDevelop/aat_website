@@ -12,7 +12,6 @@
 				Each session is 45 minutes long and their frequency is weekly. This is dynamic and depends on the client, their needs,
 				goals and possibilities.
 			</p>
-			<p>This service isn't covered under health insurance providers therefore a direct cost is associated.</p>
 			<p>Please feel free to contact me with any questions or for additional information.</p>
 		</div>
 		<div class="workshops">
@@ -26,7 +25,6 @@
 				<ul>
 					<li>Animal Assisted Therapy for Trauma</li>
 					<li>Human-Animal Bond and Our Wellness</li>
-					<li>Team Building and Working Within a Team vs. Teamwork</li>
 					<li>Shifting From Changes to Opportunities</li>
 					<li>Interpersonal Effective Communication</li>
 					<li>Emotional Intelligence in a Workplace</li>

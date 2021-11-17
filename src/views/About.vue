@@ -1,51 +1,25 @@
 <template>
-	<!--<main class="content">
-		 <section class="content">
-			<h5>About Me</h5>
-			<div class="left">
-				<p>
-					I'm a believer that most humans grow and heal best by doing. Working with animals offers us a hands on, active
-					experience. Each animal, like humans has it's distinct personality, it provides us the needed space to project
-					and analyze behaviours and situations while working on our goals.
-				</p>
-				<p>
-					Over the past 15 years I've worked with different age groups and organizations,such as schools, foster care,
-					department of social affairs, victims services, residential care, nursing homes and addiction units.
-				</p>
-				<p>
-					In 2015 I immigrated from Israel and am now a proud Canadian citizen. I currently live in Upper Tantallon with
-					my husband and daughter. Surrounded with loyal animal companions.
-				</p>
-			</div>
-			<div class="right">
-				<img alt="aat" src="../assets/20180514_165336_edited.jpg" class="figure" />
-			</div>
-			<h4>Certifications:</h4>
-			<ul>
-				<li>Masters of Education and Leadership, Tel Aviv University</li>
-				<li>
-					Diploma in Animal Assisted Therapy, Magid school for Animal Assisted Interventions of the Hebrew University
-					Jerusalem, recognized by International Association of Human-Animal Interaction Organizations (IAHAIO) and
-					International Society for Animal Assisted Therapy (ISAAT)
-				</li>
-			</ul>
-		</section> </main>-->
 	<div class="container">
 		<div class="container__text">
 			<h5>About Me</h5>
+
+			<p>
+				Over the past 15 years I've worked with different age groups and organizations,such as schools, foster care,
+				department of social affairs, victims services, residential care, nursing homes and addiction units.
+			</p>
 			<p>
 				I'm a believer that most humans grow and heal best by doing. Working with animals offers us a hands on, active
 				experience. Each animal, like humans has it's distinct personality, it provides us the needed space to project and
 				analyze behaviours and situations while working on our goals.
 			</p>
 			<p>
-				Over the past 15 years I've worked with different age groups and organizations,such as schools, foster care,
-				department of social affairs, victims services, residential care, nursing homes and addiction units.
+				Transition and change create excitement and new opportunities, with that they summon various difficulties and at times
+				not easy adjustments. Our daily lives and developmental stages within them, foster challenges and call for alternative
+				coping strategies. Client- animal connection with the therapist's guidance and facilitation is active and based on
+				various operations with the animal and for the animal. The emphasis on the doing during the sessions develops feelings
+				of capability, reflected on our daily tasks and lives. Please reach out for more information, questions and
+				consultation
 			</p>
-			<!-- <p>
-				In 2015 I immigrated from Israel and am now a proud Canadian citizen. I currently live in Upper Tantallon with my
-				husband and daughter. Surrounded with loyal animal companions.
-			</p> -->
 		</div>
 		<div class="container__left">
 			<img
