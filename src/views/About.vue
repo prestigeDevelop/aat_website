@@ -16,9 +16,11 @@
 				Transition and change create excitement and new opportunities, with that they summon various difficulties and at times
 				not easy adjustments. Our daily lives and developmental stages within them, foster challenges and call for alternative
 				coping strategies. Client- animal connection with the therapist's guidance and facilitation is active and based on
-				various operations with the animal and for the animal. The emphasis on the doing during the sessions develops feelings
-				of capability, reflected on our daily tasks and lives. Please reach out for more information, questions and
-				consultation
+				various operations with the animal and for the animal.
+			</p>
+			<p>
+				The emphasis on the doing during the sessions develops feelings of capability, reflected on our daily tasks and lives.
+				Please reach out for more information, questions and consultation
 			</p>
 		</div>
 		<div class="container__left">
