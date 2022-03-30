@@ -20,7 +20,7 @@
 				Experiential and interactive full day/half day workshops and presentations. Workshops can be provided with or without
 				animals.
 			</p>
-			<section>
+			<!-- <section>
 				<h4>Current options:</h4>
 				<ul>
 					<li>Animal Assisted Therapy for Trauma</li>
@@ -30,7 +30,7 @@
 					<li>Emotional Intelligence in a Workplace</li>
 					<li>Conflict Resolution</li>
 				</ul>
-			</section>
+			</section> -->
 			<p>
 				Please contact to discuss custom workshops and presentations that will meet your personal and organizational interests
 				and needs.
