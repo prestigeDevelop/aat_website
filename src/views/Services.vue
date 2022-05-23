@@ -1,46 +1,42 @@
 /* eslint-disable prettier/prettier */
 <template>
 	<main class="container">
-		<!-- <section class="content"> -->
-		<div class="sessions">
-			<h5>One on One sessions</h5>
-			<p>
-				The therapeutic process usually consists of four introduction sessions (creating initial connection, trust, goal
-				settings), sixteen process sessions and four separation sessions.
-			</p>
-			<p>
-				Each session is 45 minutes long and their frequency is weekly. This is dynamic and depends on the client, their needs,
-				goals and possibilities.
-			</p>
-			<p>Please feel free to contact me with any questions or for additional information.</p>
-		</div>
-		<div class="workshops">
-			<h5>Workshops and Presentations</h5>
-			<p>
-				Experiential and interactive full day/half day workshops and presentations. Workshops can be provided with or without
-				animals.
-			</p>
-			<!-- <section>
-				<h4>Current options:</h4>
-				<ul>
-					<li>Animal Assisted Therapy for Trauma</li>
-					<li>Human-Animal Bond and Our Wellness</li>
-					<li>Shifting From Changes to Opportunities</li>
-					<li>Interpersonal Effective Communication</li>
-					<li>Emotional Intelligence in a Workplace</li>
-					<li>Conflict Resolution</li>
-				</ul>
-			</section> -->
-			<p>
-				Please contact to discuss custom workshops and presentations that will meet your personal and organizational interests
-				and needs.
-			</p>
-		</div>
-		<!-- </section> -->
-
-		<aside class="right">
-			<img alt="aat" src="../assets/Animalsinaction.jpg" title="Yana with Noya and Churchill" class="figure" />
-		</aside>
+		<BRow>
+			<BCol lg="6" md="auto">
+				<div class="sessions">
+					<h5>One on One sessions</h5>
+					<p>
+						The therapeutic process usually consists of four introduction sessions (creating initial connection,
+						trust, goal settings), sixteen process sessions and four separation sessions.
+					</p>
+					<p>
+						Each session is 45 minutes long and their frequency is weekly. This is dynamic and depends on the
+						client, their needs, goals and possibilities.
+					</p>
+					<p>Please feel free to contact me with any questions or for additional information.</p>
+				</div>
+			</BCol>
+			<BCol lg="6" md="auto">
+				<div class="workshops">
+					<h5>Workshops and Presentations</h5>
+					<p>
+						Experiential and interactive full day/half day workshops and presentations. Workshops can be provided
+						with or without animals.
+					</p>
+					<p>
+						Please contact to discuss custom workshops and presentations that will meet your personal and
+						organizational interests and needs.
+					</p>
+				</div>
+			</BCol>
+		</BRow>
+		<BRow>
+			<BCol lg="12" md="auto">
+				<aside class="right">
+					<img alt="aat" src="../assets/Animalsinaction.jpg" title="Yana with Noya and Churchill" class="figure" />
+				</aside>
+			</BCol>
+		</BRow>
 	</main>
 </template>
 
@@ -53,27 +49,22 @@ export default {
 <style lang="scss" scoped>
 .container {
 	display: flex;
+	flex-wrap: wrap;
 	flex-grow: 1;
 	@media screen and (max-width: 992px) {
 		display: flex;
 		flex-direction: column;
 	}
 }
-// .content {
-// 	display: flex;
-// 	//default properties
-// 	justify-content: flex-start;
-// 	align-items: flex-start;
-// }
 
 .container > div {
 	//border: 1px #42b983 solid;
 	flex: 1 1 0%;
-	//padding: 8px;
 }
 
 .sessions {
 	padding-right: 50px;
+	min-width: 300px;
 	@media screen and (max-width: 992px) {
 		padding-right: 0px;
 	}
@@ -81,6 +72,7 @@ export default {
 
 .workshops {
 	padding-left: 50px;
+	min-width: 300px;
 	@media screen and (max-width: 992px) {
 		padding-left: 0px;
 	}
@@ -88,15 +80,12 @@ export default {
 
 .right {
 	//border: 1px #42b983 solid;
-	min-width: 300px;
 	flex: 1 1 0%;
-	align-content: flex-start;
-	align-items: flex-start;
-	align-self: flex-start;
+	flex-wrap: wrap;
+	object-fit: contain;
 	.figure {
-		flex-grow: 0;
-		max-width: 100%;
-		min-width: 500px;
+		flex-grow: 1;
+		max-width: 1110px;
 	}
 }
 </style>
