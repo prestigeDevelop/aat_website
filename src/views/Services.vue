@@ -37,6 +37,10 @@
 			</p>
 		</div>
 		<!-- </section> -->
+
+		<aside class="right">
+			<img alt="aat" src="../assets/Animalsinaction.jpg" title="Yana with Noya and Churchill" class="figure" />
+		</aside>
 	</main>
 </template>
 
@@ -79,6 +83,20 @@ export default {
 	padding-left: 50px;
 	@media screen and (max-width: 992px) {
 		padding-left: 0px;
+	}
+}
+
+.right {
+	//border: 1px #42b983 solid;
+	min-width: 300px;
+	flex: 1 1 0%;
+	align-content: flex-start;
+	align-items: flex-start;
+	align-self: flex-start;
+	.figure {
+		flex-grow: 0;
+		max-width: 100%;
+		min-width: 500px;
 	}
 }
 </style>

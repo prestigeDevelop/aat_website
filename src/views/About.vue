@@ -30,16 +30,26 @@
 				title="Yana with Gucci and Churchill"
 				src="../assets/20180514_165336_edited.jpg"
 			/>
+			<div class="flex-direction: column">
+				<ul>
+					<h4>Certifications:</h4>
+					<li>Masters of Education and Leadership, Tel Aviv University</li>
+					<li>
+						Diploma in Animal Assisted Therapy, Magid school for Animal Assisted Interventions of the Hebrew
+						University Jerusalem, recognized by International Association of Human-Animal Interaction
+						Organizations (IAHAIO) and International Society for Animal Assisted Therapy (ISAAT)
+					</li>
+				</ul>
 
-			<ul>
-				<h4>Certifications:</h4>
-				<li>Masters of Education and Leadership, Tel Aviv University</li>
-				<li>
-					Diploma in Animal Assisted Therapy, Magid school for Animal Assisted Interventions of the Hebrew University
-					Jerusalem, recognized by International Association of Human-Animal Interaction Organizations (IAHAIO) and
-					International Society for Animal Assisted Therapy (ISAAT)
-				</li>
-			</ul>
+				<ul>
+					<h4>Recognition:</h4>
+					<li>
+						Recognized by the Nova Scotia Legislature in April 2019 for "Yana is a tremendous support for her
+						patients and is also an excellent coach for caregivers, social workers, and family members..."
+						Honorable Patricia Arab, MLA for Fairview- Clayton Park (2019)
+					</li>
+				</ul>
+			</div>
 		</div>
 	</div>
 </template>

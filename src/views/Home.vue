@@ -5,11 +5,11 @@
 		<userProfile /> -->
 		<div class="title"><h5>Animal Assisted Therapy</h5></div>
 		<section class="content">
-			<aside class="left">
-				Animal Assisted Therapy (AAT) is a therapeutic process based on the client's encounters with various animals.It is a
-				triangular interaction involving the client, therapist and animal.
+			<aside class="left mt-5">
+				Animal Assisted Therapy (AAT) is a therapeutic process based on the client's encounters with various animals.
+				<p>It is a triangular interaction involving the client, therapist and animal.</p>
 				<p>
-					The encounter is immediate, direct and authentic. Making the sessions comfortable, safe and free of judgement.
+					The encounter is immediate, direct and authentic, making the sessions comfortable, safe and free of judgement.
 					Clients that likely to be anxious are comforted by the presence of an animal companion, often enhancing their
 					motivation in therapy. This experience allows spontaneous reactions in front of an animal which, without words
 					accepts an individual's story, beginning the therapeutic process where the client feels understood, supported
