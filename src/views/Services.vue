@@ -33,7 +33,7 @@
 		<BRow>
 			<BCol lg="12" md="auto">
 				<aside class="right">
-					<img alt="aat" src="../assets/Animalsinaction.jpg" title="Yana with Noya and Churchill" class="figure" />
+					<img alt="aat" src="../assets/Animalsinaction.jpg" title="Yana with Noya and Churchill" />
 				</aside>
 			</BCol>
 		</BRow>
@@ -79,13 +79,12 @@ export default {
 }
 
 .right {
-	//border: 1px #42b983 solid;
-	flex: 1 1 0%;
-	flex-wrap: wrap;
+	display: flex;
+}
+
+.right img {
+	width: 100%;
 	object-fit: contain;
-	.figure {
-		flex-grow: 1;
-		max-width: 1110px;
-	}
+	border-radius: 4px;
 }
 </style>
