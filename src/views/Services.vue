@@ -29,8 +29,6 @@
 					</p>
 				</div>
 			</BCol>
-		</BRow>
-		<BRow>
 			<BCol lg="12" md="auto">
 				<aside class="right">
 					<img alt="aat" src="../assets/Animalsinaction.jpg" title="Yana with Noya and Churchill" />
