@@ -15,6 +15,11 @@
 					</p>
 					<p>Please feel free to contact me with any questions or for additional information.</p>
 				</div>
+				<BCol lg="auto" md="auto" class="p-0">
+					<aside class="right">
+						<img alt="aat" src="../assets/Animalsinaction.png" title="Yana with Noya and Churchill" />
+					</aside>
+				</BCol>
 			</BCol>
 			<BCol lg="6" md="auto">
 				<div class="workshops">
@@ -28,11 +33,11 @@
 						organizational interests and needs.
 					</p>
 				</div>
-			</BCol>
-			<BCol lg="12" md="auto">
-				<aside class="right">
-					<img alt="aat" src="../assets/Animalsinaction.jpg" title="Yana with Noya and Churchill" />
-				</aside>
+				<BCol lg="auto" md="auto" class="p-0">
+					<aside class="right">
+						<!-- <img alt="aat" src="../assets/20_HDR_4.png" title="Yana with Noya and Churchill" /> -->
+					</aside>
+				</BCol>
 			</BCol>
 		</BRow>
 	</main>

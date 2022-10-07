@@ -28,6 +28,8 @@ export default {
 	//flex-direction: column;
 	min-height: 100vh;
 	//border: 1px #42b983 solid;
+	//background-color: #e1dfda;
+	//background-image: url('../src/assets/background1.jpeg');
 }
 
 h5 {

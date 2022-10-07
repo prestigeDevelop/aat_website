@@ -18,15 +18,28 @@
 				</p>
 			</aside>
 			<aside class="right">
-				<img alt="aat" src="../assets/_D724654_edited 812.jpg" title="Yana with Noya and Churchill" class="figure" />
+				<img alt="aat" src="../assets/_D724654_edited 812.png" title="Yana with Noya and Churchill" class="figure" />
 			</aside>
 		</section>
 		<section class="buttom">
-			Therapeutic Interventions with Animals is an active process that can support individuals who experience emotional disturbances
-			and behavioural problems, depression, various states of stress and anxiety, PTSD and complex PTSD, family and relationship
-			problems, social skills challenges, physical disabilities, impaired communication, PDD, ADD, ADHD, OCD, Down Syndrome,
-			addictions and eating disorders, victims of abuse and trauma, the elderly and those in rehabilitation. Animal Assisted Therapy
-			enables a reflection of mental, cognitive and behavioural processes that lead to a journey of growth.
+			<p>
+				Therapeutic Interventions with Animals is an active process that can support individuals who experience emotional
+				disturbances and behavioural problems, depression, various states of stress and anxiety, PTSD and complex PTSD, family
+				and relationship problems, social skills challenges, physical disabilities, impaired communication, PDD, ADD, ADHD,
+				OCD, Down Syndrome, addictions and eating disorders, victims of abuse and trauma, the elderly and those in
+				rehabilitation. Animal Assisted Therapy enables a reflection of mental, cognitive and behavioural processes that lead
+				to a journey of growth.
+			</p>
+			<p>
+				Transition and change create excitement and new opportunities, with that they summon various difficulties and at times
+				not easy adjustments. Our daily lives and developmental stages within them, foster challenges and call for alternative
+				coping strategies. Client- animal connection with the therapist's guidance and facilitation is active and based on
+				various operations with the animal and for the animal.
+			</p>
+			<p>
+				The emphasis on the doing during the sessions develops feelings of capability, reflected on our daily tasks and lives.
+				Please reach out for more information, questions and consultation
+			</p>
 		</section>
 	</main>
 </template>

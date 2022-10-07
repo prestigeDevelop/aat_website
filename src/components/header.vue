@@ -37,6 +37,7 @@
 						<router-link class="nav-item nav-link" to="/contact">
 							<font-awesome-icon :icon="['fas', 'envelope']" />Contact</router-link
 						>
+						<!-- <router-link class="nav-item nav-link" to="/gallery">Gallery</router-link> -->
 					</div>
 				</BNavbarNav>
 			</BCollapse>
@@ -124,6 +125,7 @@ header .nav {
 	@media all and (-ms-high-contrast: none) {
 		height: 50px;
 	}
+	//background-image: url('../assets/header3_edited.jpg');
 }
 img {
 	width: 200px;
