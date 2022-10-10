@@ -5,12 +5,12 @@
 			<BCol lg="6" md="auto">
 				<div class="sessions">
 					<h5>One on One sessions</h5>
-					<p>
+					<!-- <p>
 						The therapeutic process usually consists of four introduction sessions (creating initial connection,
 						trust, goal settings), sixteen process sessions and four separation sessions.
-					</p>
+					</p> -->
 					<p>
-						Each session is 45 minutes long and their frequency is weekly. This is dynamic and depends on the
+						Each session is 50 minutes long and their frequency is weekly. This is dynamic and depends on the
 						client, their needs, goals and possibilities.
 					</p>
 					<p>Please feel free to contact me with any questions or for additional information.</p>

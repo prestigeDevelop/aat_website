@@ -59,17 +59,17 @@
 		<BRow>
 			<BCol lg="6" md="auto">
 				<aside class="right">
-					<img alt="aat" src="../assets/sami.jpg" title="Sami the Cocotil" />
+					<img alt="aat" src="../assets/sami.jpg" />
 				</aside>
 			</BCol>
 			<BCol lg="6" md="auto">
 				<aside class="right">
-					<img alt="aat" src="../assets/20_HDR_4.png" title="Churchill" />
+					<img alt="aat" src="../assets/20_HDR_4.png" />
 				</aside>
 			</BCol>
 			<BCol lg="6" md="auto">
 				<aside class="right">
-					<img alt="aat" src="../assets/henry.jpg" title="henry" />
+					<img alt="aat" src="../assets/henry.jpg" />
 				</aside>
 			</BCol>
 			<!-- <BCol lg="6" md="auto">
