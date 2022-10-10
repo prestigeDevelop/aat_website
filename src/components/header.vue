@@ -32,7 +32,7 @@
 							Services
 						</router-link>
 						<router-link class="nav-item nav-link" to="/about">
-							<font-awesome-icon :icon="['fas', 'sign']" />About Me</router-link
+							<font-awesome-icon :icon="['fas', 'sign']" />Our team</router-link
 						>
 						<router-link class="nav-item nav-link" to="/contact">
 							<font-awesome-icon :icon="['fas', 'envelope']" />Contact</router-link
@@ -125,7 +125,10 @@ header .nav {
 	@media all and (-ms-high-contrast: none) {
 		height: 50px;
 	}
-	//background-image: url('../assets/header3_edited.jpg');
+	//background-image: url('../assets/header4.jpeg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 img {
 	width: 200px;

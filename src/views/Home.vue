@@ -5,7 +5,7 @@
 		<userProfile /> -->
 		<div class="title"><h5>Animal Assisted Therapy</h5></div>
 		<section class="content">
-			<aside class="left mt-5">
+			<aside class="left mt-1">
 				Animal Assisted Therapy (AAT) is a therapeutic process based on the client's encounters with various animals.
 				<p>It is a triangular interaction involving the client, therapist and animal.</p>
 				<p>
@@ -18,7 +18,7 @@
 				</p>
 			</aside>
 			<aside class="right">
-				<img alt="aat" src="../assets/_D724654_edited 812.png" title="Yana with Noya and Churchill" class="figure" />
+				<img alt="aat" src="../assets/D724654_edited 812.jpg" title="Yana with Noya and Churchill" class="figure" />
 			</aside>
 		</section>
 		<section class="buttom">
@@ -38,6 +38,8 @@
 			</p>
 			<p>
 				The emphasis on the doing during the sessions develops feelings of capability, reflected on our daily tasks and lives.
+			</p>
+			<p>
 				Please reach out for more information, questions and consultation
 			</p>
 		</section>

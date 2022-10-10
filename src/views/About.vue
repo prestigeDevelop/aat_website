@@ -51,6 +51,33 @@
 				</p>
 			</BCol>
 		</BRow>
+		<BRow>
+			<BCol lg="12" md="auto">
+				<h5>Meet some of the staff</h5>
+			</BCol>
+		</BRow>
+		<BRow>
+			<BCol lg="6" md="auto">
+				<aside class="right">
+					<img alt="aat" src="../assets/sami.jpg" title="Sami the Cocotil" />
+				</aside>
+			</BCol>
+			<BCol lg="6" md="auto">
+				<aside class="right">
+					<img alt="aat" src="../assets/20_HDR_4.png" title="Churchill" />
+				</aside>
+			</BCol>
+			<BCol lg="6" md="auto">
+				<aside class="right">
+					<img alt="aat" src="../assets/henry.jpg" title="henry" />
+				</aside>
+			</BCol>
+			<!-- <BCol lg="6" md="auto">
+				<aside class="right">
+					<img alt="aat" src="../assets/20180514_165336_edited.jpg" title="Yana with Gucci and Churchill" />
+				</aside>
+			</BCol> -->
+		</BRow>
 		<!-- <div class="container__left">
 			<img
 				class="container__left__image"
@@ -120,5 +147,6 @@ export default {
 	width: 100%;
 	object-fit: contain;
 	border-radius: 4px;
+	margin-top: 4px;
 }
 </style>
