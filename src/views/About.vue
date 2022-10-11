@@ -29,12 +29,12 @@
 			</p>
 		</div> -->
 		<BRow>
-			<BCol lg="6" md="auto">
+			<BCol lg="4" md="auto">
 				<aside class="right">
 					<img alt="aat" src="../assets/20180514_165336_edited.jpg" title="Yana with Gucci and Churchill" />
 				</aside>
 			</BCol>
-			<BCol lg="6" md="auto">
+			<BCol lg="8" md="auto">
 				<h4>Certifications:</h4>
 				<ul>
 					<li>Masters of Education and Leadership, Tel Aviv University</li>
@@ -57,19 +57,24 @@
 			</BCol>
 		</BRow>
 		<BRow>
-			<BCol lg="6" md="auto">
+			<BCol lg="5" md="auto">
 				<aside class="right">
 					<img alt="aat" src="../assets/sami.jpg" />
 				</aside>
 			</BCol>
-			<BCol lg="6" md="auto">
+			<BCol lg="5" md="auto">
 				<aside class="right">
-					<img alt="aat" src="../assets/20_HDR_4.png" />
+					<img alt="aat" src="../assets/churchill.png" />
 				</aside>
 			</BCol>
-			<BCol lg="6" md="auto">
+			<BCol lg="5" md="auto">
 				<aside class="right">
 					<img alt="aat" src="../assets/henry.jpg" />
+				</aside>
+			</BCol>
+			<BCol lg="5" md="auto">
+				<aside class="right">
+					<img alt="aat" src="../assets/noya.jpg" />
 				</aside>
 			</BCol>
 			<!-- <BCol lg="6" md="auto">
