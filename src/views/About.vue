@@ -57,31 +57,31 @@
 			</BCol>
 		</BRow>
 		<BRow>
-			<BCol lg="5" md="auto">
+			<BCol lg="4" md="auto">
 				<aside class="right">
-					<img alt="aat" src="../assets/sami.jpg" />
+					<img alt="aat" src="../assets/sammy.jpg" />
 				</aside>
 			</BCol>
-			<BCol lg="5" md="auto">
+			<BCol lg="4" md="auto">
 				<aside class="right">
 					<img alt="aat" src="../assets/churchill.png" />
 				</aside>
 			</BCol>
-			<BCol lg="5" md="auto">
+			<BCol lg="4" md="auto">
 				<aside class="right">
-					<img alt="aat" src="../assets/henry.jpg" />
+					<img alt="aat" src="../assets/henry_crop.png" />
 				</aside>
 			</BCol>
-			<BCol lg="5" md="auto">
+			<BCol lg="4" md="auto">
 				<aside class="right">
-					<img alt="aat" src="../assets/noya.jpg" />
+					<img alt="aat" src="../assets/noya.png" />
 				</aside>
 			</BCol>
-			<!-- <BCol lg="6" md="auto">
+			<BCol lg="4" md="auto">
 				<aside class="right">
-					<img alt="aat" src="../assets/20180514_165336_edited.jpg" title="Yana with Gucci and Churchill" />
+					<img alt="aat" src="../assets/freud.jpg" />
 				</aside>
-			</BCol> -->
+			</BCol>
 		</BRow>
 		<!-- <div class="container__left">
 			<img
@@ -150,8 +150,9 @@ export default {
 
 .right img {
 	width: 100%;
-	object-fit: contain;
+	//object-fit: contain;
 	border-radius: 4px;
 	margin-top: 4px;
+	max-height: 350px;
 }
 </style>

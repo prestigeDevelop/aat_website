@@ -4,14 +4,14 @@
 			<BCol lg="12" md="auto">
 				<p class="carousel-caption">Some text here 1</p>
 				<div class="caption center-block">Test</div>
-				<b-img-lazy v-bind="mainProps" src="../assets/gallery/img-1.jpg" alt="Image 1" thumbnail></b-img-lazy>
+				<!-- <b-img-lazy v-bind="mainProps" src="../assets/gallery/img-1.jpg" alt="Image 1" thumbnail></b-img-lazy>
 				<p class="carousel-caption">Some text here 2</p>
 				<div class="caption center-block">Test</div>
 				<b-img-lazy v-bind="mainProps" src="../assets/gallery/img-2.jpg" alt="Image 1" thumbnail></b-img-lazy>
 				<p class="carousel-caption">Some text here 3</p>
 				<b-img-lazy v-bind="mainProps" src="../assets/gallery/img-9.jpg" alt="Image 1" thumbnail></b-img-lazy>
 				<p class="carousel-caption">Some text here 4</p>
-				<b-img-lazy v-bind="mainProps" src="../assets/gallery/img-10.jpg" alt="Image 1" thumbnail></b-img-lazy>
+				<b-img-lazy v-bind="mainProps" src="../assets/gallery/img-10.jpg" alt="Image 1" thumbnail></b-img-lazy> -->
 				<!-- <b-img-lazy v-bind="mainProps" src="../assets/gallery/img-3.jpg" alt="Image 1" thumbnail></b-img-lazy>
 				<b-img-lazy v-bind="mainProps" src="../assets/gallery/img-4.jpg" alt="Image 1" thumbnail></b-img-lazy>
 				<b-img-lazy v-bind="mainProps" src="../assets/gallery/img-5.jpg" alt="Image 1" thumbnail></b-img-lazy>
