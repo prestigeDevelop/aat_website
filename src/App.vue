@@ -42,12 +42,21 @@ h5 {
 	//font-style: italic !important;
 }
 h2 {
-	font: normal normal bold 24px/1.5em lulo-clean-w01-one-bold, sans-serif !important;
+	font: normal normal bold 21px/1.5em lulo-clean-w01-one-bold, sans-serif !important;
 	color: #94821b !important;
 
-	font-size: 24pt !important;
-	font-family: 'Baskerville Old Face', Garamond, serif !important;
-	font-weight: bold !important;
+	//font-size: 24pt !important;
+	//font-family: 'Baskerville Old Face', Garamond, serif !important;
+	//font-weight: bold !important;
+	//font-style: italic !important;
+}
+h1 {
+	font: normal normal bold 26px/1.5em lulo-clean-w01-one-bold, sans-serif !important;
+	color: #94821b !important;
+
+	//font-size: 24pt !important;
+	//font-family: 'Baskerville Old Face', Garamond, serif !important;
+	//font-weight: bold !important;
 	//font-style: italic !important;
 }
 #header,

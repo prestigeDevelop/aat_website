@@ -3,66 +3,25 @@
 		<!-- <img alt="Vue logo" src="../assets/logo.png" />
 		<HelloWorld msg="Welcome to Your Vue.js App" />
 		<userProfile /> -->
-		<div class="title"><h1>Welcome to Animal Assisted Therapy</h1></div>
+		<div class="title"><h5>Animal Assisted Therapy</h5></div>
 		<section class="content">
 			<aside class="left mt-1">
+				Animal Assisted Therapy (AAT) is a therapeutic process based on the client's encounters with various animals.
+				<p>It is a triangular interaction involving the client, therapist and animal.</p>
 				<p>
-					At our practice, we use the power of animals to help people of all ages and abilities improve their mental and
-					physical health. From dogs and fish to rabbits and birds, our trained therapist and animals provide a unique
-					and therapeutic experience.
-				</p>
-				<h2>What is Animal Assisted Therapy?</h2>
-				<p>
-					Animal assisted therapy is a therapy based on client’s work with the therapist and animals. The goal is to
-					overcome physical, behavioural, emotional, and social challenges. This is a triangular interaction involving
-					the client, therapist and animal/s. Research has shown that interacting with animals can have a number of
-					benefits, including:
-				</p>
-				<ul>
-					<li>Reducing Stress and Anxiety</li>
-					<li>Developing Emotional Regulation</li>
-					<li>Overcoming various Challenges, and Trauma Symptoms</li>
-					<li>Providing a sense of Purpose, Meaning and Self Esteem</li>
-					<li>Encouraging physical activity and mobility</li>
-				</ul>
-
-				<h2>Our Animals</h2>
-				<p>
-					We are lucky to have a diverse team of animals who help us provide therapy to our clients. Here are just a few
-					of the animals you might meet during a session:
-				</p>
-				<ul>
-					<li>Dogs</li>
-					<li>Reptiles</li>
-					<li>Rabbits</li>
-					<li>Birds</li>
-				</ul>
-
-				<h2>Meet Our Team</h2>
-				<p>
-					<a href="/about">Our team </a> is passionate about woking with people and animals promoting therapeutic goals,
-					supporting development and enhancing growth and healing. They have a range of qualifications and experience,
-					and are dedicated to providing the best care possible to clients.
-				</p>
-				<h2>Services</h2>
-				<p>We offer a variety of services, including:</p>
-				<ul>
-					<li>Individual therapy sessions</li>
-					<li>Group therapy sessions</li>
-					<li>Workshops</li>
-				</ul>
-				<h2>Contact Us</h2>
-				<p>
-					Interested in learning more about our services? scheduling a free consultation or a therapy session? We would
-					love to hear from you. Please reach us by phone at (902) 229 7897 or by filling out the form below
-					<Contact greeting-message="" class="contactForm" />
+					The encounter is immediate, direct and authentic, making the sessions comfortable, safe and free of judgement.
+					Clients that likely to be anxious are comforted by the presence of an animal companion, often enhancing their
+					motivation in therapy. This experience allows spontaneous reactions in front of an animal which, without words
+					accepts an individual's story, beginning the therapeutic process where the client feels understood, supported
+					and free to be themselves. The acceptance, creates an ideal atmosphere by opening the door to an inner world
+					and helps the individual to bypass obstacles such as verbal expression or resistance to treatment.
 				</p>
 			</aside>
 			<aside class="right">
 				<img alt="aat" src="../assets/D724654_edited 812.jpg" title="Yana with Noya and Churchill" class="figure" />
 			</aside>
 		</section>
-		<!-- <section class="buttom">
+		<section class="buttom">
 			<p>
 				Therapeutic Interventions with Animals is an active process that can support individuals who experience emotional
 				disturbances and behavioural problems, depression, various states of stress and anxiety, PTSD and complex PTSD, family
@@ -83,7 +42,7 @@
 			<p>
 				Please reach out for more information, questions and consultation
 			</p>
-		</section> -->
+		</section>
 	</main>
 </template>
 
@@ -91,11 +50,10 @@
 // @ is an alias to /src
 // import HelloWorld from '@/components/HelloWorld.vue';
 // import userProfile from '@/components/UserProfile.vue';
-//import Contact from '@views/Contact.vue';
-import Contact from './Contact.vue';
+
 export default {
 	name: 'Home',
-	components: { Contact }
+	components: {}
 };
 </script>
 <style lang="scss" scoped>
@@ -138,11 +96,5 @@ export default {
 .buttom {
 	//border: 1px #42b983 solid;
 	margin-top: 1%;
-}
-
-.contactForm {
-	display: flex;
-	align-items: flex-start;
-	gap: 40px;
 }
 </style>

@@ -1,6 +1,6 @@
 <template>
 	<main class="container">
-		<h5>Lets Talk..</h5>
+		<h1>{{ normalizedSize }}</h1>
 		<section class="content">
 			<form target="_blank" action="https://formsubmit.co/yanagoldaat@gmail.com" method="POST">
 				<div class="form-group">
@@ -33,7 +33,14 @@
 <script>
 export default {
 	name: 'Contact',
-	components: {}
+	components: {},
+	props: { greetingMessage: { type: String, required: false, default: 'Lets Talk..' } },
+	computed: {
+		// computed property that auto-updates when the prop changes
+		normalizedSize() {
+			return this.greetingMessage;
+		}
+	}
 };
 </script>
 <style lang="scss" scoped>

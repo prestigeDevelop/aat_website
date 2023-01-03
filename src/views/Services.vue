@@ -4,7 +4,7 @@
 		<BRow>
 			<BCol lg="6" md="auto">
 				<div class="sessions">
-					<h5>One on One sessions</h5>
+					<h2>One on One sessions</h2>
 					<!-- <p>
 						The therapeutic process usually consists of four introduction sessions (creating initial connection,
 						trust, goal settings), sixteen process sessions and four separation sessions.
@@ -23,7 +23,7 @@
 			</BCol>
 			<BCol lg="6" md="auto">
 				<div class="workshops">
-					<h5>Workshops and Presentations</h5>
+					<h2>Workshops and Presentations</h2>
 					<p>
 						Experiential and interactive full day/half day workshops and presentations. Workshops can be provided
 						with or without animals.

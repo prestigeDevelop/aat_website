@@ -1,7 +1,7 @@
 <template>
 	<main class="container">
 		<section class="content">
-			<h5>Animal Assisted Therapy</h5>
+			<h1>Animal Assisted Therapy</h1>
 			<p>
 				Animal Assisted Therapy (AAT) is a relatively new practice in Canada, and is widespread and implemented in other
 				countries (i.e USA, UK, Israel). It's active and experiential approach is becoming popular amongst all.
