@@ -40,12 +40,13 @@
 
 				<h2>Meet Our Team</h2>
 				<p>
-					<a href="/about">Our team </a> is passionate about woking with people and animals promoting therapeutic goals,
-					supporting development and enhancing growth and healing. They have a range of qualifications and experience,
-					and are dedicated to providing the best care possible to clients.
+					<router-link to="/about">Our team </router-link> is passionate about woking with people and animals promoting
+					therapeutic goals, supporting development and enhancing growth and healing. They have a range of
+					qualifications and experience, and are dedicated to providing the best care possible to clients.
 				</p>
 				<h2>Services</h2>
-				<p>We offer a variety of <a href="/services">services</a>, including:</p>
+				<p>We offer a variety of <router-link to="/services">services </router-link>, including:</p>
+
 				<ul>
 					<li>Individual therapy sessions</li>
 					<li>Group therapy sessions</li>
