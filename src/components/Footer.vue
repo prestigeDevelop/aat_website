@@ -80,4 +80,7 @@ export default class Footer extends Vue {}
 // 		font-size: 3.5rem;
 // 	}
 // }
+a {
+	color: #94821b !important;
+}
 </style>

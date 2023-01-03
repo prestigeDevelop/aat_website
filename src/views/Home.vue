@@ -7,16 +7,16 @@
 		<section class="content">
 			<aside class="left mt-1">
 				<p>
-					At our practice, we use the power of animals to help people of all ages and abilities improve their mental and
-					physical health. From dogs and fish to rabbits and birds, our trained therapist and animals provide a unique
-					and therapeutic experience.
+					At our practice, we utilize the power of different animals to support people of all ages and abilities improve
+					their mental and physical health. From dogs and fish to rabbits and birds, our trained therapist and animals
+					provide a unique and therapeutic experience.
 				</p>
 				<h2>What is Animal Assisted Therapy?</h2>
 				<p>
-					Animal assisted therapy is a therapy based on client’s work with the therapist and animals. The goal is to
-					overcome physical, behavioural, emotional, and social challenges. This is a triangular interaction involving
-					the client, therapist and animal/s. Research has shown that interacting with animals can have a number of
-					benefits, including:
+					Animal assisted therapy is a therapy based on client’s work with the therapist and animal/s. This is a
+					triangular interaction involving various therapeutic approaches promotes client’s goals overcoming physical,
+					behavioural, emotional, and social challenges. Research has shown that Animal Assisted Therapy presents with a
+					number of benefits, including:
 				</p>
 				<ul>
 					<li>Reducing Stress and Anxiety</li>
@@ -45,7 +45,7 @@
 					and are dedicated to providing the best care possible to clients.
 				</p>
 				<h2>Services</h2>
-				<p>We offer a variety of services, including:</p>
+				<p>We offer a variety of <a href="/services">services</a>, including:</p>
 				<ul>
 					<li>Individual therapy sessions</li>
 					<li>Group therapy sessions</li>
@@ -53,8 +53,8 @@
 				</ul>
 				<h2>Contact Us</h2>
 				<p>
-					Interested in learning more about our services? scheduling a free consultation or a therapy session? We would
-					love to hear from you. Please reach us by phone at (902) 229 7897 or by filling out the form below
+					Interested in learning more about our services? Scheduling a free consultation or a therapy session? We would
+					love to hear from you.<br />Please reach us by phone at (902) 229 7897 or by filling out the form below.
 					<Contact greeting-message="" class="contactForm" />
 				</p>
 			</aside>
@@ -144,5 +144,8 @@ export default {
 	display: flex;
 	align-items: flex-start;
 	gap: 40px;
+}
+a {
+	color: #94821b !important;
 }
 </style>
