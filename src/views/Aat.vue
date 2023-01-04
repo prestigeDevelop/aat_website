@@ -7,6 +7,19 @@
 				countries (i.e USA, UK, Israel). It's active and experiential approach is becoming popular amongst all.
 			</p>
 			<p>
+				Animal assisted work is based on definitions of the International Association of Human-Animal Interaction
+				Organizations (IAHAIO).<br />
+				“Animal Assisted Therapy (AAT) is a goal oriented, planned and structured therapeutic intervention directed and/or
+				delivered by health, education or human service professionals, including e.g. psychologists and social workers.
+				Intervention progress is measured and included in professional documentation. AAT is delivered and/or directed by a
+				formally trained (with active licensure, degree or equivalent) professional with expertise within the scope of the
+				professionals’ practice. AAT focuses on enhancing physical, cognitive, behavioral and/or socio-emotional functioning
+				of the particular human recipient either in the group or individual setting. The professional delivering AAT (or the
+				person handling the animal under the supervision of the human service professional) must have adequate knowledge about
+				the behavior, needs, health and indicators and regulation of stress of the animals involved”. IAHAIO WHITE PAPER 2014,
+				updated for 2018
+			</p>
+			<p>
 				AAT supports clients with a multitude of goals, as it enhances an individual's physical, emotional and social
 				well-being, thus improving self-esteem, reducing anxiety, providing help with PTSD symptoms and facilitating healing.
 			</p>

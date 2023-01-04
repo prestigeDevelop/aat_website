@@ -5,13 +5,21 @@
 				<h1>Our Team</h1>
 
 				<p>
-					Over the past 15 years I've worked with different age groups and organizations,such as schools, foster care,
-					department of social affairs, victims services, residential care, nursing homes and addiction units.
+					Over the past 16 years I've worked with children, youth and families. People from different backgrounds and
+					abilities, different voices and stories, needs and age groups. Throughout my practice as an Animal Assisted
+					Therapist I've been supporting professionals and clients through a variety of organizations such as;
+					Department of Education- daycares and schools. Department of Social Affairs and Community Services, victim
+					services, care facilities, nursing homes and addiction units.
 				</p>
 				<p>
-					I'm a believer that most humans grow and heal best by doing. Working with animals offers us a hands on, active
-					experience. Each animal, like humans has it's distinct personality, it provides us the needed space to project
-					and analyze behaviours and situations while working on our goals.
+					I'm a believer that most humans grow and heal best by doing. Working together with animals and for the animals
+					offers us a hands-on, active experience, safe and comfortable for all, at times challenging as any process of
+					growth and development. Each animal, like humans, has its distinct personality, it provides us the needed
+					space with therapists navigation to project and analyze behaviours and situations while working on our goals.
+				</p>
+				<p>
+					Please don't hesitate to reach out for further conversation and learn how Animal Assisted Therapy services can
+					help.
 				</p>
 			</BCol>
 		</BRow>
@@ -45,9 +53,12 @@
 					</li>
 				</ul>
 				<p class="pl-3">
-					Recognized by the Nova Scotia Legislature in April 2019 for "Yana is a tremendous support for her patients and
-					is also an excellent coach for caregivers, social workers, and family members..." Honorable Patricia Arab, MLA
-					for Fairview- Clayton Park (2019)
+					Recognized by the Nova Scotia Legislature in April 2019<br />
+					<cite
+						>"Yana is a tremendous support for her patients and is also an excellent coach for caregivers, social
+						workers, and family members..."</cite
+					>
+					Honorable Patricia Arab, MLA for Fairview- Clayton Park (2019)
 				</p>
 			</BCol>
 		</BRow>

@@ -7,16 +7,16 @@
 		<section class="content">
 			<aside class="left mt-1">
 				<p>
-					At our practice, we utilize the power of different animals to support people of all ages and abilities improve
-					their mental and physical health. From dogs and fish to rabbits and birds, our trained therapist and animals
-					provide a unique and therapeutic experience.
+					At our practice, we utilize the special nature and personality traits of different animals to support people
+					of all ages and abilities improve their mental and physical health. From dogs and fish to rabbits and birds,
+					our trained therapist and animals provide a unique and therapeutic experience.
 				</p>
 				<h2>What is Animal Assisted Therapy?</h2>
 				<p>
-					Animal assisted therapy is a therapy based on client’s work with the therapist and animal/s. This is a
-					triangular interaction involving various therapeutic approaches promotes client’s goals overcoming physical,
-					behavioural, emotional, and social challenges. Research has shown that Animal Assisted Therapy presents with a
-					number of benefits, including:
+					<router-link to="/aat"><b>Animal assisted Therapy</b> </router-link> (AAT) is a therapy based on client’s work
+					with the therapist and animals. This is a triangular interaction involving various therapeutic approaches and
+					activities with animals to promote client’s goals in overcoming physical/ behavioural/ emotional challenges.
+					Research has shown that AAT presents with a number of benefits, including:
 				</p>
 				<ul>
 					<li>Reducing Stress and Anxiety</li>
@@ -25,7 +25,18 @@
 					<li>Providing a sense of Purpose, Meaning and Self Esteem</li>
 					<li>Encouraging physical activity and mobility</li>
 				</ul>
-
+				<p>AAT addresses and has a positive impact on behaviours and conditions like:</p>
+				<ul>
+					<li>Anxiety</li>
+					<li>Emotional Support and Regulation</li>
+					<li>Aggression</li>
+					<li>Healthy Relationships, Communication</li>
+					<li>Trauma</li>
+					<li>Grief and Loss</li>
+					<li>Developmental Disorders</li>
+					<li>Behavioral Difficulties</li>
+					<li>Rehabilitation</li>
+				</ul>
 				<h2>Our Animals</h2>
 				<p>
 					We are lucky to have a diverse team of animals who help us provide therapy to our clients. Here are just a few
@@ -40,12 +51,14 @@
 
 				<h2>Meet Our Team</h2>
 				<p>
-					<router-link to="/about">Our team </router-link> is passionate about woking with people and animals promoting
-					therapeutic goals, supporting development and enhancing growth and healing. They have a range of
-					qualifications and experience, and are dedicated to providing the best care possible to clients.
+					<router-link to="/about"><b>Our team</b> </router-link> is passionate about woking with people and animals
+					while supporting development, and enhancing growth and healing. They have a range of qualifications and
+					experience, and are dedicated to providing the best care possible to clients and animals.
 				</p>
 				<h2>Services</h2>
-				<p>We offer a variety of <router-link to="/services">services </router-link>, including:</p>
+				<p>
+					We offer a variety of <router-link to="/services"><b>services</b> </router-link>, including:
+				</p>
 
 				<ul>
 					<li>Individual therapy sessions</li>
@@ -54,8 +67,8 @@
 				</ul>
 				<h2>Contact Us</h2>
 				<p>
-					Interested in learning more about our services? Scheduling a free consultation or a therapy session? We would
-					love to hear from you.<br />Please reach us by phone at (902) 229 7897 or by filling out the form below.
+					Interested in learning more about our services? Scheduling a therapy session or a free consultation? We would
+					love to hear from you. Please reach us by phone at (902) 229 7897 or by filling out the form below.
 					<Contact greeting-message="" class="contactForm" />
 				</p>
 			</aside>
