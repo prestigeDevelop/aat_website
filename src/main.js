@@ -6,10 +6,10 @@ import { BootstrapVue, IconsPlugin } from 'bootstrap-vue/dist/bootstrap-vue.esm'
 
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import VueAnalytics from 'vue-analytics';
-import { faUserSecret, faHome, faSign, faEnvelope, faPaw } from '@fortawesome/free-solid-svg-icons';
+import { faUserSecret, faHome, faSign, faEnvelope, faPaw, faBlog } from '@fortawesome/free-solid-svg-icons';
 import { faFontAwesome } from '@fortawesome/free-brands-svg-icons';
 import { library } from '@fortawesome/fontawesome-svg-core';
-library.add(faUserSecret, faHome, faSign, faEnvelope, faFontAwesome, faPaw);
+library.add(faUserSecret, faHome, faSign, faEnvelope, faFontAwesome, faPaw, faBlog);
 
 // Configuration VueAnalytics
 Vue.use(VueAnalytics, {

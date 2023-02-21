@@ -34,6 +34,9 @@
 						<router-link class="nav-item nav-link" to="/about">
 							<font-awesome-icon :icon="['fas', 'sign']" />Our team</router-link
 						>
+						<router-link class="nav-item nav-link" to="/blog">
+							<font-awesome-icon :icon="['fas', 'blog']" />Blog
+						</router-link>
 						<router-link class="nav-item nav-link" to="/contact">
 							<font-awesome-icon :icon="['fas', 'envelope']" />Contact</router-link
 						>
