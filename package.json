@@ -61,9 +61,6 @@
       "parser": "babel-eslint"
     },
     "rules": {}
-  },
-  "resolutions": {
-    "@hapi/address": "14.0.0"
   }
 }
 
