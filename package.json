@@ -63,7 +63,7 @@
     "rules": {}
   },
   "resolutions": {
-    "@hapi/address@5.1.0": "14.0.0"
+    "hapi/address": "14.0.0"
   }
 }
 
