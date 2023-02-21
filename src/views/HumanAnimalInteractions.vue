@@ -5,7 +5,7 @@
 				<h1 class="mb-4">Human-Animal Interactions: Introduction to Animal Assisted Therapy</h1>
 				<p class="text-muted">Yana Gold, February 15, 2023</p>
 				<!-- <img src="https://picsum.photos/800/400" class="img-fluid my-4" alt="Responsive UI with Vue.js" /> -->
-				<img class="card-img-top" src="../assets/buffalo.jpeg" alt="Card image cap" />
+				<!-- <img class="card-img-top" src="../assets/buffalo.jpeg" alt="Card image cap" /> -->
 				<p>
 					The relationship between people and animals has been long-standing and has played a significant role in human
 					history. From working animals to companion animals, animals have been an integral part of human life and have
