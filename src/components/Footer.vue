@@ -1,7 +1,7 @@
 <template>
 	<footer class="container mt-auto py-3 bg-light">
 		<BRow>
-			<BCol lg="4" md="auto">
+			<BCol lg="5" md="auto">
 				<p class="text-muted">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
@@ -18,8 +18,9 @@
 					</svg>
 					<a href="tel:9022297897">Call 902-229-7897</a>
 				</p>
+				<p class="location">Located in Upper Tantallon, Nova Scotia</p>
 			</BCol>
-			<BCol lg="4" md="auto">
+			<BCol lg="3" md="auto">
 				<p class="text-muted">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
@@ -40,11 +41,11 @@
 				<p class="text-muted copyrights">© 2019 yanagoldaat.ca All Rights Reserved</p>
 			</BCol>
 		</BRow>
-		<BRow>
+		<!-- <BRow>
 			<BCol lg="12" md="auto">
 				<p class="location row justify-content-center align-items-center">Located in Upper Tantallon,Nova Scotia</p>
 			</BCol>
-		</BRow>
+		</BRow> -->
 	</footer>
 </template>
 
