@@ -98,6 +98,11 @@
 					<img alt="aat" src="../assets/freud.jpg" />
 				</aside>
 			</BCol>
+			<BCol lg="4" md="auto">
+				<aside class="right">
+					<img alt="aat" src="../assets/lumpa.png" />
+				</aside>
+			</BCol>
 		</BRow>
 		<!-- <BCol lg="4" md="auto">
 				<figure class="figure">
