@@ -3,7 +3,7 @@
 		<div class="row">
 			<div class="col-md-8">
 				<h1 class="mb-4">
-					Understanding Anxiety Disorders in Children and Youth: Positive Effects of Animal-Assisted Therapy.
+					Understanding Anxiety Disorders in Children and Youth: Positive Effects of Animal-Assisted Therapy
 				</h1>
 				<p class="text-muted">Yana Gold, March 1, 2023</p>
 				<!-- <img src="https://picsum.photos/800/400" class="img-fluid my-4" alt="Responsive UI with Vue.js" /> -->
@@ -16,7 +16,7 @@
 					can support children and youth with anxiety.
 				</p>
 				<p>
-					<b><u> disorders in children and youth</u></b
+					<b><u> Disorders in Children and Youth</u></b
 					><br />
 					Fear is a natural and necessary emotion for our existence. It is the fear response that drives us to flee and
 					find shelter in a situation of immediate danger. Facing immediate danger, fear is a warning, an alarm

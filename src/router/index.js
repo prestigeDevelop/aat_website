@@ -1,7 +1,7 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 import Home from '../views/Home.vue';
-
+import { createRouter, createWebHistory } from 'vue-router';
 Vue.use(VueRouter);
 
 const routes = [
@@ -76,9 +76,13 @@ const routes = [
 	}
 ];
 
-const router = new VueRouter({
-	routes,
-	mode: 'history'
+// const router = new VueRouter({
+// 	routes,
+// 	base: process.env.BASE_URL,
+// 	mode: 'history'
+// });
+const router = createRouter({
+	history: createWebHistory(),
+	routes: [routes]
 });
-
 export default router;

@@ -23,7 +23,7 @@
 				</BCol>
 				<BCol lg="4" md="auto">
 					<div class="card">
-						<img class="card-img-top imgHeight" src="../assets/photo Blog post 2.jpg" alt="Card image cap" />
+						<img class="card-img-top imgHeight" src="../assets/blog2.png" alt="Card image cap" />
 						<div class="card-body">
 							<h5 class="card-title">
 								Understanding Anxiety Disorders in Children and Youth: Positive Effects of
@@ -32,8 +32,7 @@
 							<p class="card-text">
 								Animal-assisted therapy (AAT) is a comfortable approach that involves human-animal
 								interaction in a therapeutic setting. It has been shown to be effective in supporting
-								people with a variety of health conditions and challenges, including anxiety
-								disorders.
+								people with a variety of health conditions...
 							</p>
 							<p></p>
 							<router-link to="/understandingAnxietyDisorders"><b>read more...</b> </router-link>
