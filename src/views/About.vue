@@ -84,7 +84,7 @@
 				</aside>
 			</BCol>
 			<BCol lg="4" md="auto">
-				<aside class="right">
+				<aside class="right" style="height: 354px;">
 					<img alt="aat" src="../assets/henry_crop.png" />
 				</aside>
 			</BCol>
@@ -103,7 +103,18 @@
 					<img alt="aat" src="../assets/lumpa.png" />
 				</aside>
 			</BCol>
+			<BCol lg="4" md="auto">
+				<aside class="right">
+					<img alt="aat" src="../assets/Humphrey4.jpeg" />
+				</aside>
+			</BCol>
+			<BCol lg="4" md="auto">
+				<aside class="right">
+					<img alt="aat" src="../assets/Bernardo.jpeg" style="height: 340px;" />
+				</aside>
+			</BCol>
 		</BRow>
+
 		<!-- <BCol lg="4" md="auto">
 				<figure class="figure">
 					<img src="../assets/sammy.jpg" class="figure-img img-fluid z-depth-1" alt="..." style="width: 400px" />
