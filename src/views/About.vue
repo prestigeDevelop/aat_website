@@ -110,7 +110,7 @@
 			</BCol>
 			<BCol lg="4" md="auto">
 				<aside class="right">
-					<img alt="aat" src="../assets/Bernardo.jpeg" style="height: 340px;" />
+					<img alt="aat" src="../assets/Bernardo1.jpeg" style="height: 340px;" />
 				</aside>
 			</BCol>
 		</BRow>
