@@ -113,6 +113,11 @@
 					<img alt="aat" src="../assets/Bernardo1.jpeg" style="height: 340px;" />
 				</aside>
 			</BCol>
+			<BCol lg="4" md="auto">
+				<aside class="right">
+					<img alt="aat" src="../assets/chewie1.png" style="height: 340px;" />
+				</aside>
+			</BCol>
 		</BRow>
 
 		<!-- <BCol lg="4" md="auto">
