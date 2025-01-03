@@ -75,47 +75,57 @@
 		<BRow>
 			<BCol lg="4" md="auto">
 				<aside class="right">
-					<img alt="aat" src="../assets/sammy.jpg" />
+					<img alt="aat" src="../assets/sammy.jpg" :style="{ height: isMobile ? 'auto' : '340px' }" />
 				</aside>
 			</BCol>
 			<BCol lg="4" md="auto">
 				<aside class="right">
-					<img alt="aat" src="../assets/churchill.png" />
+					<img alt="aat" src="../assets/churchill.png" :style="{ height: isMobile ? 'auto' : '340px' }" />
 				</aside>
 			</BCol>
 			<BCol lg="4" md="auto">
 				<aside class="right" style="height: 354px;">
-					<img alt="aat" src="../assets/henry_crop.png" />
+					<img alt="aat" src="../assets/henry_crop.png" :style="{ height: isMobile ? 'auto' : '340px' }" />
 				</aside>
 			</BCol>
 			<BCol lg="4" md="auto">
 				<aside class="right">
-					<img alt="aat" src="../assets/noya.png" />
+					<img alt="aat" src="../assets/noya.png" :style="{ height: isMobile ? 'auto' : '340px' }" />
 				</aside>
 			</BCol>
 			<BCol lg="4" md="auto">
 				<aside class="right">
-					<img alt="aat" src="../assets/freud.jpg" />
+					<img alt="aat" src="../assets/freud.jpg" :style="{ height: isMobile ? 'auto' : '340px' }" />
 				</aside>
 			</BCol>
 			<BCol lg="4" md="auto">
 				<aside class="right">
-					<img alt="aat" src="../assets/lumpa.png" />
+					<img alt="aat" src="../assets/lumpa.png" :style="{ height: isMobile ? 'auto' : '340px' }" />
 				</aside>
 			</BCol>
 			<BCol lg="4" md="auto">
 				<aside class="right">
-					<img alt="aat" src="../assets/Humphrey4.jpeg" />
+					<img alt="aat" src="../assets/Humphrey4.jpeg" :style="{ height: isMobile ? 'auto' : '340px' }" />
 				</aside>
 			</BCol>
 			<BCol lg="4" md="auto">
 				<aside class="right">
-					<img alt="aat" src="../assets/Bernardo1.jpeg" style="height: 340px;" />
+					<img alt="aat" src="../assets/Bernardo1.jpeg" :style="{ height: isMobile ? 'auto' : '340px' }" />
 				</aside>
 			</BCol>
 			<BCol lg="4" md="auto">
 				<aside class="right">
-					<img alt="aat" src="../assets/chewie1.png" style="height: 340px;" />
+					<img alt="aat" src="../assets/chewie1.png" :style="{ height: isMobile ? 'auto' : '340px' }" />
+				</aside>
+			</BCol>
+			<BCol lg="4" md="auto">
+				<aside class="right">
+					<img alt="aat" src="../assets/steve.jpg" :style="{ height: isMobile ? '600px' : '340px' }" />
+				</aside>
+			</BCol>
+			<BCol lg="4" md="auto">
+				<aside class="right">
+					<img alt="aat" src="../assets/martin.jpg" :style="{ height: isMobile ? 'auto' : '340px' }" />
 				</aside>
 			</BCol>
 		</BRow>
@@ -238,9 +248,9 @@ export default {
 
 .right img {
 	width: 100%;
-	//object-fit: contain;
+	object-fit: inherit;
 	border-radius: 4px;
 	margin-top: 4px;
-	max-height: 350px;
+	//max-height: 350px;
 }
 </style>
