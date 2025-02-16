@@ -76,28 +76,6 @@
 				<img alt="aat" src="../assets/D724654_edited 812.jpg" title="Yana with Noya and Churchill" class="figure" />
 			</aside>
 		</section>
-		<!-- <section class="buttom">
-			<p>
-				Therapeutic Interventions with Animals is an active process that can support individuals who experience emotional
-				disturbances and behavioural problems, depression, various states of stress and anxiety, PTSD and complex PTSD, family
-				and relationship problems, social skills challenges, physical disabilities, impaired communication, PDD, ADD, ADHD,
-				OCD, Down Syndrome, addictions and eating disorders, victims of abuse and trauma, the elderly and those in
-				rehabilitation. Animal Assisted Therapy enables a reflection of mental, cognitive and behavioural processes that lead
-				to a journey of growth.
-			</p>
-			<p>
-				Transition and change create excitement and new opportunities, with that they summon various difficulties and at times
-				not easy adjustments. Our daily lives and developmental stages within them, foster challenges and call for alternative
-				coping strategies. Client- animal connection with the therapist's guidance and facilitation is active and based on
-				various operations with the animal and for the animal.
-			</p>
-			<p>
-				The emphasis on the doing during the sessions develops feelings of capability, reflected on our daily tasks and lives.
-			</p>
-			<p>
-				Please reach out for more information, questions and consultation
-			</p>
-		</section> -->
 	</main>
 </template>
 
@@ -113,16 +91,6 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
-//.container {
-//display: flex;
-//flex-grow: 1;
-//flex-direction: column;
-//flex-basis: auto;
-
-//justify-content: flex-start;
-//align-items: flex-start;
-//}
-
 .content {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
@@ -146,8 +114,15 @@ export default {
 	flex: 1 1 0%;
 	//border: 1px #42b983 solid;
 	@media screen and (max-width: 600px) {
-		width: 100%;
+		.figure {
+			width: 100%;
+			height: auto;
+		}
 	}
+}
+.left p {
+	line-height: 1.6;
+	padding: 10px;
 }
 .buttom {
 	//border: 1px #42b983 solid;
@@ -161,5 +136,6 @@ export default {
 }
 a {
 	color: #94821b !important;
+	touch-action: manipulation;
 }
 </style>
