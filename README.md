@@ -27,3 +27,5 @@ yarn lint
 ### Customize configuration
 
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### deploy https://app.netlify.com/teams/prestigedevelop/builds/67b20ef63c232000085e9854
