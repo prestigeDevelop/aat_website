@@ -31,6 +31,7 @@
 						src="../assets/20180514_165336_edited.jpg"
 						title="Yana with Gucci and Churchill"
 						class="responsive-img"
+						loading="lazy"
 					/>
 				</aside>
 			</BCol>
@@ -67,57 +68,57 @@
 		<BRow>
 			<BCol lg="4" md="auto">
 				<aside class="right">
-					<img alt="aat" src="../assets/sammy.jpg" class="responsive-img" />
+					<img alt="aat" src="../assets/sammy.jpg" loading="lazy" class="responsive-img" />
 				</aside>
 			</BCol>
 			<BCol lg="4" md="auto">
 				<aside class="right">
-					<img alt="aat" src="../assets/churchill.png" class="responsive-img" />
+					<img alt="aat" src="../assets/churchill.jpg" loading="lazy" class="responsive-img" />
 				</aside>
 			</BCol>
 			<BCol lg="4" md="auto">
 				<aside class="right" style="height: 354px;">
-					<img alt="aat" src="../assets/henry_crop.png" class="responsive-img" />
+					<img alt="aat" src="../assets/henry_crop.jpg" loading="lazy" class="responsive-img" />
 				</aside>
 			</BCol>
 			<BCol lg="4" md="auto">
 				<aside class="right">
-					<img alt="aat" src="../assets/noya.png" class="responsive-img" />
+					<img alt="aat" src="../assets/noya.png" loading="lazy" class="responsive-img" />
 				</aside>
 			</BCol>
 			<BCol lg="4" md="auto">
 				<aside class="right">
-					<img alt="aat" src="../assets/freud.jpg" class="responsive-img" />
+					<img alt="aat" src="../assets/freud.jpg" loading="lazy" class="responsive-img" />
 				</aside>
 			</BCol>
 			<BCol lg="4" md="auto">
 				<aside class="right">
-					<img alt="aat" src="../assets/lumpa.png" class="responsive-img" />
+					<img alt="aat" src="../assets/lumpa.png" loading="lazy" class="responsive-img" />
 				</aside>
 			</BCol>
 			<BCol lg="4" md="auto">
 				<aside class="right">
-					<img alt="aat" src="../assets/Humphrey4.jpeg" class="responsive-img" />
+					<img alt="aat" src="../assets/Humphrey4.jpeg" loading="lazy" class="responsive-img" />
 				</aside>
 			</BCol>
 			<BCol lg="4" md="auto">
 				<aside class="right">
-					<img alt="aat" src="../assets/Bernardo1.jpeg" class="responsive-img" />
+					<img alt="aat" src="../assets/Bernardo1.jpeg" loading="lazy" class="responsive-img" />
 				</aside>
 			</BCol>
 			<BCol lg="4" md="auto">
 				<aside class="right">
-					<img alt="aat" src="../assets/chewie1.png" class="responsive-img" />
+					<img alt="Chewie" src="../assets/chewie.jpg" loading="lazy" class="responsive-img" />
 				</aside>
 			</BCol>
 			<BCol lg="4" md="auto">
 				<aside class="right">
-					<img alt="aat" src="../assets/steve.jpg" class="responsive-img" />
+					<img alt="aat" src="../assets/steve.jpg" loading="lazy" class="responsive-img" />
 				</aside>
 			</BCol>
 			<BCol lg="4" md="auto">
 				<aside class="right">
-					<img alt="aat" src="../assets/martin.jpg" class="responsive-img" />
+					<img alt="aat" src="../assets/martin.jpg" loading="lazy" class="responsive-img" />
 				</aside>
 			</BCol>
 		</BRow>

@@ -170,7 +170,7 @@ a {
 						Follow us on Instagram
 					</a>
 				</p>
-				<p class="text-muted copyrights">© 2019 yanagoldaat.ca All Rights Reserved</p>
+				<p class="text-muted copyrights">© All rights reserved | Designed By prestigeDevelop</p>
 			</BCol>
 		</BRow>
 	</footer>
