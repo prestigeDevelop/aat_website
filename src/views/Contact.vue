@@ -2,35 +2,50 @@
 	<main class="container">
 		<h1>{{ normalizedSize }}</h1>
 		<section class="content">
-			<form target="_blank" action="https://formsubmit.co/yanagoldaat@gmail.com" method="POST">
-				<div class="form-group">
-					<label for="exampleFormControlInput1">Name</label>
-					<input id="name" type="name" name="name" class="form-control rounded-input" placeholder="Name" />
-				</div>
-				<div class="form-group">
-					<label for="exampleFormControlInput1">Email address</label>
-					<input
-						id="exampleFormControlInput1"
-						type="email"
-						name="email"
-						class="form-control rounded-input"
-						placeholder="name@example.com"
-					/>
-				</div>
+			<b-form action="https://formsubmit.co/yanagoldaat@gmail.com" method="POST" @submit.prevent="onSubmit">
+				<BRow>
+					<BCol md="6">
+						<b-form-group id="input-group-1" label="Your Name:" label-for="input-1">
+							<b-form-input
+								id="input-1"
+								v-model="form.name"
+								name="name"
+								type="text"
+								placeholder="Enter name"
+								required
+								class="rounded-input"
+							></b-form-input>
+						</b-form-group>
+					</BCol>
+					<BCol md="6">
+						<b-form-group id="input-group-2" label="Email address:" label-for="input-2">
+							<b-form-input
+								id="input-2"
+								v-model="form.email"
+								name="email"
+								type="email"
+								placeholder="Enter email"
+								required
+								class="rounded-input"
+							></b-form-input>
+						</b-form-group>
+					</BCol>
+				</BRow>
 
-				<div class="form-group">
-					<label for="exampleFormControlTextarea1">Message</label>
-					<textarea
-						id="exampleFormControlTextarea1"
-						class="form-control rounded-input"
+				<b-form-group id="input-group-3" label="Message:" label-for="textarea">
+					<b-form-textarea
+						id="textarea"
+						v-model="form.message"
 						name="message"
+						placeholder="Enter message..."
 						rows="3"
-					></textarea>
-				</div>
-				<div class="">
-					<button type="submit" class="btn btn-secondary mb-2">Submit</button>
-				</div>
-			</form>
+						max-rows="6"
+						class="rounded-input"
+					></b-form-textarea>
+				</b-form-group>
+
+				<b-button type="submit" variant="secondary">Submit</b-button>
+			</b-form>
 		</section>
 	</main>
 </template>
@@ -38,12 +53,29 @@
 <script>
 export default {
 	name: 'Contact',
-	components: {},
 	props: { greetingMessage: { type: String, required: false, default: 'Lets Talk..' } },
+	data() {
+		return {
+			form: {
+				email: '',
+				name: '',
+				message: ''
+			}
+		};
+	},
+
 	computed: {
 		// computed property that auto-updates when the prop changes
 		normalizedSize() {
 			return this.greetingMessage;
+		}
+	},
+	methods: {
+		onSubmit(event) {
+			// For now, we'll let the form submit traditionally to formsubmit.co
+			// In the future, you could use a library like axios to submit this
+			// without a page reload for a better user experience.
+			event.target.submit();
 		}
 	}
 };
@@ -71,5 +103,8 @@ textarea,
 select {
 	background-color: rgb(219, 224, 230);
 	color: #000;
+}
+.form-group {
+	margin-bottom: 1rem;
 }
 </style>

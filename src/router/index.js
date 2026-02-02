@@ -1,7 +1,6 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 import Home from '../views/Home.vue';
-//import { createRouter, createWebHistory } from 'vue-router';
 Vue.use(VueRouter);
 
 const routes = [
@@ -24,7 +23,7 @@ const routes = [
 		// route level code-splitting
 		// this generates a separate chunk (about.[hash].js) for this route
 		// which is lazy-loaded when the route is visited.
-		component: () => import(/* webpackChunkName: "about" */ '../views/Aat.vue')
+		component: () => import(/* webpackChunkName: "aat" */ '../views/Aat.vue')
 	},
 	{
 		path: '/services',
@@ -32,7 +31,7 @@ const routes = [
 		// route level code-splitting
 		// this generates a separate chunk (about.[hash].js) for this route
 		// which is lazy-loaded when the route is visited.
-		component: () => import(/* webpackChunkName: "about" */ '../views/Services.vue')
+		component: () => import(/* webpackChunkName: "services" */ '../views/Services.vue')
 	},
 	{
 		path: '/contact',
@@ -40,7 +39,7 @@ const routes = [
 		// route level code-splitting
 		// this generates a separate chunk (about.[hash].js) for this route
 		// which is lazy-loaded when the route is visited.
-		component: () => import(/* webpackChunkName: "about" */ '../views/Contact.vue')
+		component: () => import(/* webpackChunkName: "contact" */ '../views/Contact.vue')
 	},
 	{
 		path: '/gallery',
@@ -48,7 +47,7 @@ const routes = [
 		// route level code-splitting
 		// this generates a separate chunk (about.[hash].js) for this route
 		// which is lazy-loaded when the route is visited.
-		component: () => import(/* webpackChunkName: "about" */ '../views/Gallery.vue')
+		component: () => import(/* webpackChunkName: "gallery" */ '../views/Gallery.vue')
 	},
 	{
 		path: '/blog',
@@ -56,7 +55,7 @@ const routes = [
 		// route level code-splitting
 		// this generates a separate chunk (about.[hash].js) for this route
 		// which is lazy-loaded when the route is visited.
-		component: () => import(/* webpackChunkName: "about" */ '../views/Blog.vue')
+		component: () => import(/* webpackChunkName: "blog" */ '../views/Blog.vue')
 	},
 	{
 		path: '/humanAnimalInteractions',
@@ -64,7 +63,7 @@ const routes = [
 		// route level code-splitting
 		// this generates a separate chunk (about.[hash].js) for this route
 		// which is lazy-loaded when the route is visited.
-		component: () => import(/* webpackChunkName: "about" */ '../views/HumanAnimalInteractions.vue')
+		component: () => import(/* webpackChunkName: "human-animal-interactions" */ '../views/HumanAnimalInteractions.vue')
 	},
 	{
 		path: '/understandingAnxietyDisorders',
@@ -72,7 +71,7 @@ const routes = [
 		// route level code-splitting
 		// this generates a separate chunk (about.[hash].js) for this route
 		// which is lazy-loaded when the route is visited.
-		component: () => import(/* webpackChunkName: "about" */ '../views/UnderstandingAnxietyDisorders.vue')
+		component: () => import(/* webpackChunkName: "understanding-anxiety-disorders" */ '../views/UnderstandingAnxietyDisorders.vue')
 	}
 ];
 
@@ -81,8 +80,4 @@ const router = new VueRouter({
 	base: process.env.BASE_URL,
 	mode: 'history'
 });
-// const router = createRouter({
-// 	history: createWebHistory(),
-// 	routes: [routes]
-// });
 export default router;
