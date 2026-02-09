@@ -19,7 +19,7 @@ app.use(router);
 app.use(
 	VueGtag,
 	{
-		config: { id: 'UA-229659621-1' }
+		config: { id: 'G-3G16M78ZD5' }
 	},
 	router
 );
