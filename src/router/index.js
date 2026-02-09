@@ -1,83 +1,70 @@
-import Vue from 'vue';
-import VueRouter from 'vue-router';
+import { createRouter, createWebHistory } from 'vue-router';
 import Home from '../views/Home.vue';
-Vue.use(VueRouter);
 
 const routes = [
 	{
 		path: '/',
 		name: 'Home',
-		component: Home
+		component: Home,
+		meta: { title: 'Animal Assisted Therapy Halifax NS | Yana Gold AAT' }
 	},
 	{
 		path: '/about',
 		name: 'About',
-		// route level code-splitting
-		// this generates a separate chunk (about.[hash].js) for this route
-		// which is lazy-loaded when the route is visited.
-		component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
+		component: () => import('../views/About.vue'),
+		meta: { title: 'Our Team | Animal Assisted Therapy Halifax NS' }
 	},
 	{
 		path: '/aat',
 		name: 'Aat',
-		// route level code-splitting
-		// this generates a separate chunk (about.[hash].js) for this route
-		// which is lazy-loaded when the route is visited.
-		component: () => import(/* webpackChunkName: "aat" */ '../views/Aat.vue')
+		component: () => import('../views/Aat.vue'),
+		meta: { title: 'What is AAT | Animal Assisted Therapy Halifax NS' }
 	},
 	{
 		path: '/services',
 		name: 'Services',
-		// route level code-splitting
-		// this generates a separate chunk (about.[hash].js) for this route
-		// which is lazy-loaded when the route is visited.
-		component: () => import(/* webpackChunkName: "services" */ '../views/Services.vue')
+		component: () => import('../views/Services.vue'),
+		meta: { title: 'Services | Animal Assisted Therapy Halifax NS' }
 	},
 	{
 		path: '/contact',
 		name: 'Contact',
-		// route level code-splitting
-		// this generates a separate chunk (about.[hash].js) for this route
-		// which is lazy-loaded when the route is visited.
-		component: () => import(/* webpackChunkName: "contact" */ '../views/Contact.vue')
+		component: () => import('../views/Contact.vue'),
+		meta: { title: 'Contact Us | Animal Assisted Therapy Halifax NS' }
 	},
 	{
 		path: '/gallery',
 		name: 'Gallery',
-		// route level code-splitting
-		// this generates a separate chunk (about.[hash].js) for this route
-		// which is lazy-loaded when the route is visited.
-		component: () => import(/* webpackChunkName: "gallery" */ '../views/Gallery.vue')
+		component: () => import('../views/Gallery.vue'),
+		meta: { title: 'Gallery | Animal Assisted Therapy Halifax NS' }
 	},
 	{
 		path: '/blog',
 		name: 'Blog',
-		// route level code-splitting
-		// this generates a separate chunk (about.[hash].js) for this route
-		// which is lazy-loaded when the route is visited.
-		component: () => import(/* webpackChunkName: "blog" */ '../views/Blog.vue')
+		component: () => import('../views/Blog.vue'),
+		meta: { title: 'Blog | Animal Assisted Therapy Halifax NS' }
 	},
 	{
 		path: '/humanAnimalInteractions',
 		name: 'HumanAnimalInteractions',
-		// route level code-splitting
-		// this generates a separate chunk (about.[hash].js) for this route
-		// which is lazy-loaded when the route is visited.
-		component: () => import(/* webpackChunkName: "human-animal-interactions" */ '../views/HumanAnimalInteractions.vue')
+		component: () => import('../views/HumanAnimalInteractions.vue'),
+		meta: { title: 'Human-Animal Interactions | Animal Assisted Therapy Halifax NS' }
 	},
 	{
 		path: '/understandingAnxietyDisorders',
 		name: 'UnderstandingAnxietyDisorders',
-		// route level code-splitting
-		// this generates a separate chunk (about.[hash].js) for this route
-		// which is lazy-loaded when the route is visited.
-		component: () => import(/* webpackChunkName: "understanding-anxiety-disorders" */ '../views/UnderstandingAnxietyDisorders.vue')
+		component: () => import('../views/UnderstandingAnxietyDisorders.vue'),
+		meta: { title: 'Understanding Anxiety Disorders | Animal Assisted Therapy Halifax NS' }
 	}
 ];
 
-const router = new VueRouter({
-	routes,
-	base: process.env.BASE_URL,
-	mode: 'history'
+const router = createRouter({
+	history: createWebHistory(import.meta.env.BASE_URL),
+	routes
 });
+
+router.afterEach((to) => {
+	document.title = to.meta.title || 'Animal Assisted Therapy Halifax NS | Yana Gold AAT';
+});
+
 export default router;

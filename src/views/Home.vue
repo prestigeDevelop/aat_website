@@ -3,13 +3,14 @@
 		<!-- <img alt="Vue logo" src="../assets/logo.png" />
 		<HelloWorld msg="Welcome to Your Vue.js App" />
 		<userProfile /> -->
-		<div class="title"><h1>Welcome to Animal Assisted Therapy</h1></div>
+		<div class="title"><h1>Animal Assisted Therapy in Halifax, Nova Scotia</h1></div>
 		<section class="content">
 			<aside class="left mt-1">
 				<p>
-					At our practice, we utilize the special nature and personality traits of different animals to support people
-					of all ages and abilities improve their mental and physical health. From dogs and fish to rabbits and birds,
-					our trained therapist and animals provide a unique and therapeutic experience.
+					Based in Upper Tantallon and serving Halifax and surrounding areas, we utilize the special nature and
+					personality traits of different animals to support people of all ages and abilities improve their mental and
+					physical health. From dogs and fish to rabbits and birds, our trained therapist and animals provide a unique
+					and therapeutic experience.
 				</p>
 				<h2>What is Animal Assisted Therapy?</h2>
 				<p>
@@ -67,13 +68,20 @@
 				</ul>
 				<h2>Contact Us</h2>
 				<p>
-					Interested in learning more about our services? Scheduling a therapy session or a free consultation? We would
-					love to hear from you. Please reach us by phone at (902) 229 7897 or by filling out the form below.
+					Interested in learning more about our services? Scheduling a therapy session or a free consultation? We
+					serve clients throughout Halifax, Bedford, Dartmouth, and the Halifax Regional Municipality. Please reach
+					us by phone at (902) 229 7897 or by filling out the form below.
 					<Contact greeting-message="" class="contactForm" />
 				</p>
 			</aside>
 			<aside class="right">
-				<img alt="aat" src="../assets/D724654_edited 812.jpg" title="Yana with Noya and Churchill" class="figure" />
+				<img
+					alt="aat"
+					src="../assets/D724654_edited 812.jpg"
+					title="Yana with Noya and Churchill"
+					class="figure"
+					loading="lazy"
+				/>
 			</aside>
 		</section>
 	</main>

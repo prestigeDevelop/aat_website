@@ -1,5 +1,7 @@
 # aat_website
 
+Animal Assisted Therapy website — Vue 3 + Vite.
+
 ## Project setup
 
 ```
@@ -9,7 +11,7 @@ yarn install
 ### Compiles and hot-reloads for development
 
 ```
-yarn serve
+yarn dev
 ```
 
 ### Compiles and minifies for production
@@ -18,14 +20,18 @@ yarn serve
 yarn build
 ```
 
+### Preview production build
+
+```
+yarn preview
+```
+
 ### Lints and fixes files
 
 ```
 yarn lint
 ```
 
-### Customize configuration
+### Deploy
 
-See [Configuration Reference](https://cli.vuejs.org/config/).
-
-### deploy https://app.netlify.com/teams/prestigedevelop/builds/67b20ef63c232000085e9854
+Deployed to Netlify: https://app.netlify.com/teams/prestigedevelop/builds/67b20ef63c232000085e9854

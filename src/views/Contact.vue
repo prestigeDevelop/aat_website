@@ -1,51 +1,53 @@
 <template>
 	<main class="container">
-		<h1>{{ normalizedSize }}</h1>
+		<h1>{{ greetingMessage }}</h1>
 		<section class="content">
-			<b-form action="https://formsubmit.co/yanagoldaat@gmail.com" method="POST" @submit.prevent="onSubmit">
-				<BRow>
-					<BCol md="6">
-						<b-form-group id="input-group-1" label="Your Name:" label-for="input-1">
-							<b-form-input
+			<form action="https://formsubmit.co/yanagoldaat@gmail.com" method="POST" @submit.prevent="onSubmit">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="mb-3">
+							<label for="input-1" class="form-label">Your Name:</label>
+							<input
 								id="input-1"
 								v-model="form.name"
 								name="name"
 								type="text"
 								placeholder="Enter name"
 								required
-								class="rounded-input"
-							></b-form-input>
-						</b-form-group>
-					</BCol>
-					<BCol md="6">
-						<b-form-group id="input-group-2" label="Email address:" label-for="input-2">
-							<b-form-input
+								class="form-control rounded-input"
+							/>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="mb-3">
+							<label for="input-2" class="form-label">Email address:</label>
+							<input
 								id="input-2"
 								v-model="form.email"
 								name="email"
 								type="email"
 								placeholder="Enter email"
 								required
-								class="rounded-input"
-							></b-form-input>
-						</b-form-group>
-					</BCol>
-				</BRow>
+								class="form-control rounded-input"
+							/>
+						</div>
+					</div>
+				</div>
 
-				<b-form-group id="input-group-3" label="Message:" label-for="textarea">
-					<b-form-textarea
+				<div class="mb-3">
+					<label for="textarea" class="form-label">Message:</label>
+					<textarea
 						id="textarea"
 						v-model="form.message"
 						name="message"
 						placeholder="Enter message..."
 						rows="3"
-						max-rows="6"
-						class="rounded-input"
-					></b-form-textarea>
-				</b-form-group>
+						class="form-control rounded-input"
+					></textarea>
+				</div>
 
-				<b-button type="submit" variant="secondary">Submit</b-button>
-			</b-form>
+				<button type="submit" class="btn btn-secondary">Submit</button>
+			</form>
 		</section>
 	</main>
 </template>
@@ -64,12 +66,6 @@ export default {
 		};
 	},
 
-	computed: {
-		// computed property that auto-updates when the prop changes
-		normalizedSize() {
-			return this.greetingMessage;
-		}
-	},
 	methods: {
 		onSubmit(event) {
 			// For now, we'll let the form submit traditionally to formsubmit.co
@@ -104,7 +100,7 @@ select {
 	background-color: rgb(219, 224, 230);
 	color: #000;
 }
-.form-group {
+.mb-3 {
 	margin-bottom: 1rem;
 }
 </style>

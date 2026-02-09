@@ -33,9 +33,7 @@
 					itself not only in the reactions of the child, but also in the reactions and attitude of their close
 					environment.
 				</p>
-				<p>
-					Here is a review of common anxiety disorders in children, with a reference to their caregivers.
-				</p>
+				<p>Here is a review of common anxiety disorders in children, with a reference to their caregivers.</p>
 				<p>
 					<b><u>Separation Anxiety</u></b
 					><br />

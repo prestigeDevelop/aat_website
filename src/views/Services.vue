@@ -1,27 +1,28 @@
 /* eslint-disable prettier/prettier */
 <template>
 	<main class="container">
-		<BRow>
-			<BCol lg="6" md="auto">
+		<div class="row">
+			<div class="col-lg-6 col-md-auto">
 				<div class="sessions">
 					<h2>One on One sessions</h2>
-					<!-- <p>
-						The therapeutic process usually consists of four introduction sessions (creating initial connection,
-						trust, goal settings), sixteen process sessions and four separation sessions.
-					</p> -->
 					<p>
 						Each session is 50 minutes long and their frequency is weekly. This is dynamic and depends on the
 						client, their needs, goals and possibilities.
 					</p>
 					<p>Please feel free to contact me with any questions or for additional information.</p>
 				</div>
-				<BCol lg="auto" md="auto" class="p-0">
+				<div class="col-lg col-md-auto p-0">
 					<aside class="right">
-						<img alt="aat" src="../assets/Animalsinaction.png" title="Yana with Noya and Churchill" />
+						<img
+							alt="aat"
+							src="../assets/Animalsinaction.png"
+							title="Yana with Noya and Churchill"
+							loading="lazy"
+						/>
 					</aside>
-				</BCol>
-			</BCol>
-			<BCol lg="6" md="auto">
+				</div>
+			</div>
+			<div class="col-lg-6 col-md-auto">
 				<div class="workshops">
 					<h2>Workshops and Presentations</h2>
 					<p>
@@ -33,13 +34,13 @@
 						organizational interests and needs.
 					</p>
 				</div>
-				<BCol lg="auto" md="auto" class="p-0">
+				<div class="col-lg col-md-auto p-0">
 					<aside class="right">
 						<!-- <img alt="aat" src="../assets/20_HDR_4.png" title="Yana with Noya and Churchill" /> -->
 					</aside>
-				</BCol>
-			</BCol>
-		</BRow>
+				</div>
+			</div>
+		</div>
 	</main>
 </template>
 

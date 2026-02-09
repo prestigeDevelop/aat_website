@@ -1,7 +1,7 @@
 <template>
 	<div class="container">
-		<BRow>
-			<BCol lg="auto" md="auto">
+		<div class="row">
+			<div class="col-lg col-md-auto">
 				<h1>Our Team</h1>
 
 				<p>
@@ -18,13 +18,14 @@
 					space with therapists navigation to project and analyze behaviours and situations while working on our goals.
 				</p>
 				<p>
-					Please don't hesitate to reach out for further conversation and learn how Animal Assisted Therapy services can
-					help.
+					Based in Upper Tantallon, Nova Scotia, we proudly serve families throughout Halifax, Bedford, Dartmouth
+					and the wider Halifax Regional Municipality. Please don't hesitate to reach out for further conversation
+					and learn how Animal Assisted Therapy services can help.
 				</p>
-			</BCol>
-		</BRow>
-		<BRow>
-			<BCol lg="4" md="auto">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-4 col-md-auto">
 				<aside class="right">
 					<img
 						alt="aat"
@@ -34,8 +35,8 @@
 						loading="lazy"
 					/>
 				</aside>
-			</BCol>
-			<BCol lg="8" md="auto">
+			</div>
+			<div class="col-lg-8 col-md-auto">
 				<h4>Certifications:</h4>
 				<ul>
 					<li>Masters of Education and Leadership, Tel Aviv University</li>
@@ -45,7 +46,7 @@
 						Organizations (IAHAIO) and International Society for Animal Assisted Therapy (ISAAT)
 					</li>
 				</ul>
-				<p class="pl-3">
+				<p class="ps-3">
 					Recognized by the Nova Scotia Legislature in April 2019<br />
 					<cite
 						>"Yana is a tremendous support for her patients and is also an excellent coach for caregivers, social
@@ -53,75 +54,74 @@
 					>
 					Honorable Patricia Arab, MLA for Fairview- Clayton Park (2019)
 				</p>
-			</BCol>
-		</BRow>
-		<BRow>
-			<BCol lg="12" md="auto">
-				<!-- <h5>Meet some of the staff</h5> -->
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-12 col-md-auto">
 				<div class="container">
-					<section class="p-md-3 mx-md-5 text-center text-lg-left">
-						<h5 class="text-center font-weight-bold mb-0 pb-0">Meet some of the staff</h5>
+					<section class="p-md-3 mx-md-5 text-center text-lg-start">
+						<h5 class="text-center fw-bold mb-0 pb-0">Meet some of the staff</h5>
 					</section>
 				</div>
-			</BCol>
-		</BRow>
-		<BRow>
-			<BCol lg="4" md="auto">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-4 col-md-auto">
 				<aside class="right">
 					<img alt="aat" src="../assets/sammy.jpg" loading="lazy" class="responsive-img" />
 				</aside>
-			</BCol>
-			<BCol lg="4" md="auto">
+			</div>
+			<div class="col-lg-4 col-md-auto">
 				<aside class="right">
 					<img alt="aat" src="../assets/churchill.jpg" loading="lazy" class="responsive-img" />
 				</aside>
-			</BCol>
-			<BCol lg="4" md="auto">
-				<aside class="right" style="height: 354px;">
+			</div>
+			<div class="col-lg-4 col-md-auto">
+				<aside class="right" style="height: 354px">
 					<img alt="aat" src="../assets/henry_crop.jpg" loading="lazy" class="responsive-img" />
 				</aside>
-			</BCol>
-			<BCol lg="4" md="auto">
+			</div>
+			<div class="col-lg-4 col-md-auto">
 				<aside class="right">
 					<img alt="aat" src="../assets/noya.png" loading="lazy" class="responsive-img" />
 				</aside>
-			</BCol>
-			<BCol lg="4" md="auto">
+			</div>
+			<div class="col-lg-4 col-md-auto">
 				<aside class="right">
 					<img alt="aat" src="../assets/freud.jpg" loading="lazy" class="responsive-img" />
 				</aside>
-			</BCol>
-			<BCol lg="4" md="auto">
+			</div>
+			<div class="col-lg-4 col-md-auto">
 				<aside class="right">
 					<img alt="aat" src="../assets/lumpa.png" loading="lazy" class="responsive-img" />
 				</aside>
-			</BCol>
-			<BCol lg="4" md="auto">
+			</div>
+			<div class="col-lg-4 col-md-auto">
 				<aside class="right">
 					<img alt="aat" src="../assets/Humphrey4.jpeg" loading="lazy" class="responsive-img" />
 				</aside>
-			</BCol>
-			<BCol lg="4" md="auto">
+			</div>
+			<div class="col-lg-4 col-md-auto">
 				<aside class="right">
 					<img alt="aat" src="../assets/Bernardo1.jpeg" loading="lazy" class="responsive-img" />
 				</aside>
-			</BCol>
-			<BCol lg="4" md="auto">
+			</div>
+			<div class="col-lg-4 col-md-auto">
 				<aside class="right">
 					<img alt="Chewie" src="../assets/chewie.jpg" loading="lazy" class="responsive-img" />
 				</aside>
-			</BCol>
-			<BCol lg="4" md="auto">
+			</div>
+			<div class="col-lg-4 col-md-auto">
 				<aside class="right">
 					<img alt="aat" src="../assets/steve.jpg" loading="lazy" class="responsive-img" />
 				</aside>
-			</BCol>
-			<BCol lg="4" md="auto">
+			</div>
+			<div class="col-lg-4 col-md-auto">
 				<aside class="right">
 					<img alt="aat" src="../assets/martin.jpg" loading="lazy" class="responsive-img" />
 				</aside>
-			</BCol>
-		</BRow>
+			</div>
+		</div>
 	</div>
 </template>
 
@@ -148,12 +148,6 @@ p {
 		line-height: 1.6;
 	}
 }
-// .right img {
-// 	width: 100%;
-// 	object-fit: inherit;
-// 	border-radius: 4px;
-// 	margin-top: 4px;
-// }
 
 .responsive-img {
 	width: 100%;
