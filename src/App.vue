@@ -20,7 +20,9 @@ export default {
 <style lang="scss">
 #app {
 	//font-family: Avenir, Helvetica, Arial, sans-serif;
-	font: normal normal normal 16px/1.4em avenir-lt-w01_35-light1475496, sans-serif;
+	font:
+		normal normal normal 16px/1.4em avenir-lt-w01_35-light1475496,
+		sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	//using booststrap instead: class="d-flex flex-column"
@@ -33,7 +35,9 @@ export default {
 }
 
 h5 {
-	font: normal normal bold 19px/1.5em lulo-clean-w01-one-bold, sans-serif !important;
+	font:
+		normal normal bold 19px/1.5em lulo-clean-w01-one-bold,
+		sans-serif !important;
 	color: #94821b !important;
 
 	//font-size: 100pt !important;
@@ -42,7 +46,9 @@ h5 {
 	//font-style: italic !important;
 }
 h2 {
-	font: normal normal bold 21px/1.5em lulo-clean-w01-one-bold, sans-serif !important;
+	font:
+		normal normal bold 21px/1.5em lulo-clean-w01-one-bold,
+		sans-serif !important;
 	color: #94821b !important;
 
 	//font-size: 24pt !important;
@@ -51,13 +57,18 @@ h2 {
 	//font-style: italic !important;
 }
 h1 {
-	font: normal normal bold 26px/1.5em lulo-clean-w01-one-bold, sans-serif !important;
+	font:
+		normal normal bold 26px/1.5em lulo-clean-w01-one-bold,
+		sans-serif !important;
 	color: #94821b !important;
 
 	//font-size: 24pt !important;
 	//font-family: 'Baskerville Old Face', Garamond, serif !important;
 	//font-weight: bold !important;
 	//font-style: italic !important;
+}
+#app a {
+	text-decoration: none;
 }
 #header,
 #footer {

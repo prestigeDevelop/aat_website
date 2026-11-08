@@ -3,13 +3,14 @@
 		<!-- <img alt="Vue logo" src="../assets/logo.png" />
 		<HelloWorld msg="Welcome to Your Vue.js App" />
 		<userProfile /> -->
-		<div class="title"><h1>Welcome to Animal Assisted Therapy</h1></div>
+		<div class="title"><h1>Animal Assisted Therapy in Halifax, Nova Scotia</h1></div>
 		<section class="content">
 			<aside class="left mt-1">
 				<p>
-					At our practice, we utilize the special nature and personality traits of different animals to support people
-					of all ages and abilities improve their mental and physical health. From dogs and fish to rabbits and birds,
-					our trained therapist and animals provide a unique and therapeutic experience.
+					Based in Upper Tantallon and serving Halifax and surrounding areas, we utilize the special nature and
+					personality traits of different animals to support people of all ages and abilities improve their mental and
+					physical health. From dogs and fish to rabbits and birds, our trained therapist and animals provide a unique
+					and therapeutic experience.
 				</p>
 				<h2>What is Animal Assisted Therapy?</h2>
 				<p>
@@ -67,37 +68,22 @@
 				</ul>
 				<h2>Contact Us</h2>
 				<p>
-					Interested in learning more about our services? Scheduling a therapy session or a free consultation? We would
-					love to hear from you. Please reach us by phone at (902) 229 7897 or by filling out the form below.
+					Interested in learning more about our services? Scheduling a therapy session or a free consultation? We
+					serve clients throughout Halifax, Bedford, Dartmouth, and the Halifax Regional Municipality. Please reach
+					us by phone at (902) 229 7897 or by filling out the form below.
 					<Contact greeting-message="" class="contactForm" />
 				</p>
 			</aside>
 			<aside class="right">
-				<img alt="aat" src="../assets/D724654_edited 812.jpg" title="Yana with Noya and Churchill" class="figure" />
+				<img
+					alt="aat"
+					src="../assets/D724654_edited 812.jpg"
+					title="Yana with Noya and Churchill"
+					class="figure"
+					loading="lazy"
+				/>
 			</aside>
 		</section>
-		<!-- <section class="buttom">
-			<p>
-				Therapeutic Interventions with Animals is an active process that can support individuals who experience emotional
-				disturbances and behavioural problems, depression, various states of stress and anxiety, PTSD and complex PTSD, family
-				and relationship problems, social skills challenges, physical disabilities, impaired communication, PDD, ADD, ADHD,
-				OCD, Down Syndrome, addictions and eating disorders, victims of abuse and trauma, the elderly and those in
-				rehabilitation. Animal Assisted Therapy enables a reflection of mental, cognitive and behavioural processes that lead
-				to a journey of growth.
-			</p>
-			<p>
-				Transition and change create excitement and new opportunities, with that they summon various difficulties and at times
-				not easy adjustments. Our daily lives and developmental stages within them, foster challenges and call for alternative
-				coping strategies. Client- animal connection with the therapist's guidance and facilitation is active and based on
-				various operations with the animal and for the animal.
-			</p>
-			<p>
-				The emphasis on the doing during the sessions develops feelings of capability, reflected on our daily tasks and lives.
-			</p>
-			<p>
-				Please reach out for more information, questions and consultation
-			</p>
-		</section> -->
 	</main>
 </template>
 
@@ -113,16 +99,6 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
-//.container {
-//display: flex;
-//flex-grow: 1;
-//flex-direction: column;
-//flex-basis: auto;
-
-//justify-content: flex-start;
-//align-items: flex-start;
-//}
-
 .content {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
@@ -146,8 +122,15 @@ export default {
 	flex: 1 1 0%;
 	//border: 1px #42b983 solid;
 	@media screen and (max-width: 600px) {
-		width: 100%;
+		.figure {
+			width: 100%;
+			height: auto;
+		}
 	}
+}
+.left p {
+	line-height: 1.6;
+	padding: 10px;
 }
 .buttom {
 	//border: 1px #42b983 solid;
@@ -161,5 +144,6 @@ export default {
 }
 a {
 	color: #94821b !important;
+	touch-action: manipulation;
 }
 </style>

@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(del \"C:\\\\development\\\\aat_website\\\\vue.config.js\")",
+      "Bash(npx vite build)",
+      "Bash(find:*)",
+      "Bash(npm run lint)",
+      "Bash(npm run build:*)",
+      "WebFetch(domain:www.yanagoldaat.ca)",
+      "Bash(curl:*)",
+      "Bash(echo:*)"
+    ]
+  }
+}

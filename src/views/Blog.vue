@@ -1,14 +1,17 @@
 <template>
 	<main class="container">
 		<div class="card-deck">
-			<BRow>
-				<BCol lg="4" md="auto">
+			<div class="row">
+				<div class="col-lg-4 col-md-auto">
 					<div class="card">
-						<img class="card-img-top imgHeight" src="../assets/noya_article_1.jpg" alt="Card image cap" />
+						<img
+							class="card-img-top imgHeight"
+							src="../assets/noya_article_1.jpg"
+							alt="Card image cap"
+							loading="lazy"
+						/>
 						<div class="card-body">
-							<h5 class="card-title">
-								Human-Animal Interactions: Introduction to Animal Assisted Therapy
-							</h5>
+							<h5 class="card-title">Human-Animal Interactions: Introduction to Animal Assisted Therapy</h5>
 							<p class="card-text">
 								The relationship between people and animals has been long-standing and has played a
 								significant role in human history. From working animals to companion animals, animals
@@ -20,10 +23,10 @@
 							<p class="card-text"><small class="text-muted">Yana Gold, February 15, 2023</small></p>
 						</div>
 					</div>
-				</BCol>
-				<BCol lg="4" md="auto">
+				</div>
+				<div class="col-lg-4 col-md-auto">
 					<div class="card">
-						<img class="card-img-top imgHeight" src="../assets/blog2.png" alt="Card image cap" />
+						<img class="card-img-top imgHeight" src="../assets/blog2.png" alt="Card image cap" loading="lazy" />
 						<div class="card-body">
 							<h5 class="card-title">
 								Understanding Anxiety Disorders in Children and Youth: Positive Effects of
@@ -39,8 +42,8 @@
 							<p class="card-text"><small class="text-muted">Yana Gold, March 1, 2023</small></p>
 						</div>
 					</div>
-				</BCol>
-			</BRow>
+				</div>
+			</div>
 		</div>
 	</main>
 </template>
